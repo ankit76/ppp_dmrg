@@ -1,0 +1,100 @@
+ ************************************************************************
+ * CISTAR - CONFIGURATION INTERACTION/PERTURBATION THEORY PROGRAM       *
+ * QUANTUM CHEMISTRY GROUP - INDIANA UNIVERSITY -  5Jul 2016  17:42:01  *
+ ************************************************************************
+
+
+
+ THE TRANSFORMED INTEGRALS ARE TITLED: dumm                                    
+ THE FILE IS DATED:                      4Jul 2016  22:11:17 
+ THE NUMBER OF ORBITALS FROM FILE 16 IS  22.
+
+
+                         CI RUN TITLE
+                         -- --- -----
+ )* h2o  -singlet a1-  sto-3g hf sd-ci test case *
+
+
+ ) $
+ ) $ general options list input
+ ) $
+ )MRSDCI=32      $ request up to sd excitations from these configurations
+ )ISYMMETRY=2     $ specify ag overall symmetry
+ )MULTIPLICITY=1  $ specify spin multiplicity
+ )END
+ TIME TO PROCESS FORMULA FILE = 0.0 CPU SEC. ( 0.0 WALL CLOCK SEC.)
+
+            THE REFERENCE SPACE CONFIGURATIONS
+            --- --------- ----- --------------
+ ) $
+ ) $ specify the hartree-fock configuration
+ ) $
+ ) D 1 - 3 S 4 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 - 2  END
+ ) D 1 - 3 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 3  END
+ ) D 1 - 2 S 3 - 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 3  END
+ ) D 1 - 3 S 4 ; D 1 - 2 S 3 ; D 1 - 2 S 3 - 4 ; D 1 - 2  END
+ ) D 1 - 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2  END
+ ) D 1 - 3 S 4 ; D 1 - 3 S 4 ; D 1 - 2 ; D 1 - 2  END
+ ) D 1 - 3 ; D 1 - 3 ; D 1 - 3 S 4 ; D 1 S 2  END
+ ) D 1 - 2 S 3 ; D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2  END
+ ) D 1 - 3 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 4  END
+ ) D 1 - 3 S 4 ; D 1 S 2 D 3 ; D 1 - 3 ; D 1 - 2  END
+ ) D 1 - 3 S 4 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 S 2 S 4  END
+ ) D 1 - 3 ; D 1 S 2 D 3 S 4 ; D 1 - 2 S 3 ; D 1 - 2 S 3  END
+ ) D 1 - 2 S 3 D 4 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 - 2  END
+ ) D 1 - 3 ; D 1 - 3 ; D 1 - 2 S 4 ; D 1 - 2 S 3  END
+ ) D 1 - 3 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 - 2 S 4  END
+ ) D 1 - 3 S 4 ; D 1 S 2 D 3 ; D 1 - 3 ; D 1 S 2 - 3  END
+ ) D 1 - 4 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 S 2  END
+ ) D 1 - 3 S 4 ; D 1 - 3 S 4 ; D 1 - 2 ; D 1 S 2 - 3  END
+ ) D 1 - 3 S 4 ; D 1 S 2 - 4 ; D 1 - 3 ; D 1 - 2  END
+ ) D 1 - 3 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2 - 4  END
+ ) D 1 S 2 D 3 S 5 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 3  END
+ ) D 1 - 3 S 4 ; D 1 - 2 S 3 ; D 1 S 2 D 3 S 5 ; D 1 - 2  END
+ ) D 1 - 3 S 4 ; D 1 - 2 S 3 ; S 1 D 2 - 3 S 6 ; D 1 - 2  END
+ ) S 1 D 2 - 3 S 6 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 3  END
+ ) D 1 - 3 S 4 - 5 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2  END
+ ) D 1 - 3 S 4 ; D 1 - 3 S 4 ; D 1 S 2 - 3 ; D 1 - 2  END
+ ) D 1 - 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 3  END
+ ) D 1 - 3 S 4 ; D 1 - 2 S 3 D 4 ; D 1 - 2 ; D 1 - 2  END
+ ) D 1 - 3 S 4 ; D 1 S 2 D 3 ; D 1 - 2 S 3 - 4 ; D 1 - 2  END
+ ) D 1 - 2 S 3 - 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 4  END
+ ) S 1 D 2 - 3 S 4 S 6 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 - 2  END
+ ) D 1 - 3 ; D 1 - 3 ; S 1 D 2 S 3 S 6 ; D 1 - 2 S 3  END
+
+               INTERNALLY GENERATED ORBITAL SETS (MR SD-CI TYPE 1)
+               ---------- --------- ------- ---------------------
+ MIN. MAX.
+ OCC. OCC.
+   0   2   0000000000100000000001
+   0   2   0000000000000001000000
+   0   4   0000110001000010100110
+  14  20   1111000110011100001000
+   2   4   0000001000000000010000
+ THE REFERENCE SPACE CONTAINS  52 SPIN-ADAPTED CONFIGURATIONS.
+
+
+     32492 SPACE ORBITAL PRODUCTS (   168342 SPIN-ADAPTED CONFIGURATIONS)
+ WERE GENERATED IN     0.2 CPU SECONDS.
+ TIME IN DIAGC    0.0
+
+
+ THE TOTAL NUMBER OF SPACE ORBITAL PRODUCTS IS          32492
+ THE TOTAL NUMBER OF SPIN-ADAPTED CONFIGURATIONS IS    168342
+ THE MAX. NUMBER OF SPIN COUPLINGS IN A S.O.P. IS   14
+ THERE WILL BE         2 INTEGRAL LOADS UTILIZING  79995967 WORDS OF MEMORY.
+ writ50, first, nrec= T       15872
+ A TOTAL OF  4724982 NONZERO S.O.P. PAIRS WERE FOUND.
+ TIME TO FIND (I,J) PAIRS =    3.49 CPU SECONDS.
+ THE VALUE OF THE H(1,1) ELEMENT IS  -336.6070239
+
+          HAMILTONIAN MATRIX STORAGE DATA
+ I/O   NO. OF    NO. OF     FILE SIZE    PERCENT NONZERO
+ FILE  RECORDS   ELEMENTS   (IN BYTES)    IN ALL BLOCKS
+  12         4     336684      2693492
+  13       637     605891     10194548
+  17     19706   78132588    350818684      63.9
+  18       870    6900281     83523480
+  19       620    4921241     49602480
+  20       784    6238012     50179136
+ TOTAL ELAPSED TIME =    14.3 CPU SECONDS AND       15.6 WALL CLOCK SECONDS.

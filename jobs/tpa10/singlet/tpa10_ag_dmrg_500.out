@@ -1,0 +1,3256 @@
+nohup: ignoring input
+
+   CheMPS2: a spin-adapted implementation of DMRG for ab initio quantum chemistry
+   Copyright (C) 2013-2016 Sebastian Wouters
+
+   This program is free software; you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation; either version 2 of the License, or
+   (at your option) any later version.
+
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+
+   You should have received a copy of the GNU General Public License along
+   with this program; if not, write to the Free Software Foundation, Inc.,
+   51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+
+   Stats: nIt(DAVIDSON) = 12
+Energy at sites (18, 19) is 37.7790035496336
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (17, 18) is 30.3541113633231
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (16, 17) is 21.9252598188826
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (15, 16) is 9.80981059827639
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (14, 15) is -3.05467306245384
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (13, 14) is -22.7934481008043
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -34.1207698481966
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (11, 12) is -34.4935584095384
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (10, 11) is -40.3973424785415
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (9, 10) is -40.5529719922998
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (8, 9) is -40.5894455045355
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (7, 8) is -40.6476614062866
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (6, 7) is -40.7028737704849
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (5, 6) is -40.7555136035412
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (4, 5) is -40.753902334108
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.7539023341087
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.7539023341079
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.7539023341085
+******************************************************************
+***  Information on left sweep 0 of instruction 0:
+***     Elapsed wall time        = 74.20858 seconds
+***       |--> S.join            = 0.01671 seconds
+***       |--> S.solve           = 71.155786 seconds
+***       |--> S.split           = 0.408199 seconds
+***       |--> Tensor update     = 2.627476 seconds
+***              |--> create     = 0.146107 seconds
+***              |--> destroy    = 0.014804 seconds
+***              |--> disk write = 0.195677 seconds
+***              |--> disk read  = 0.111098 seconds
+***              |--> calc       = 2.159709 seconds
+***     Disk write bandwidth     = 2421.77519095513 MB/s
+***     Disk read  bandwidth     = 4265.47466237491 MB/s
+***     Minimum energy           = -40.7555136035412
+***     Maximum discarded weight = 0
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -40.7539023341084
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.7539023341084
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.7539023341079
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.7539023341088
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -40.7539023341083
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (5, 6) is -40.7555136035425
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (6, 7) is -40.7593472586972
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (7, 8) is -40.7658211865374
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (8, 9) is -40.7757376935845
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (9, 10) is -40.9399569154414
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (10, 11) is -41.0495133233482
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (11, 12) is -41.1275152013695
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -41.2218604833392
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (13, 14) is -41.2891861328474
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -41.2891861236141
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -41.2891861236153
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -41.289186123615
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -41.2891861236146
+******************************************************************
+***  Information on right sweep 0 of instruction 0:
+***     Elapsed wall time        = 56.270156 seconds
+***       |--> S.join            = 0.013808 seconds
+***       |--> S.solve           = 52.899271 seconds
+***       |--> S.split           = 0.286312 seconds
+***       |--> Tensor update     = 3.070333 seconds
+***              |--> create     = 0.132028 seconds
+***              |--> destroy    = 0.014263 seconds
+***              |--> disk write = 0.217567 seconds
+***              |--> disk read  = 0.114183 seconds
+***              |--> calc       = 2.592206 seconds
+***     Disk write bandwidth     = 2576.01616096771 MB/s
+***     Disk read  bandwidth     = 4150.22992950376 MB/s
+***     Minimum energy           = -41.2891861328474
+***     Maximum discarded weight = 1.50032685092607e-10
+***     Energy difference with respect to previous leftright sweep = 41.2891861236146
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -41.2891861236146
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -41.2891861236143
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -41.289186123615
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -41.2891861236152
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -41.2891861236143
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (13, 14) is -41.2891861327776
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -41.315162413195
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -41.3708739657131
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (10, 11) is -41.4512216324698
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (9, 10) is -41.8266045858586
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (8, 9) is -42.2834573917655
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (7, 8) is -42.4940256130237
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (6, 7) is -42.5611995286212
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (5, 6) is -42.5612331660708
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (4, 5) is -42.5612331313646
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -42.5612331313654
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -42.5612331313649
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -42.5612331313653
+******************************************************************
+***  Information on left sweep 1 of instruction 0:
+***     Elapsed wall time        = 99.647044 seconds
+***       |--> S.join            = 0.009449 seconds
+***       |--> S.solve           = 95.755028 seconds
+***       |--> S.split           = 0.348789 seconds
+***       |--> Tensor update     = 3.533374 seconds
+***              |--> create     = 0.112549 seconds
+***              |--> destroy    = 0.013221 seconds
+***              |--> disk write = 0.234263 seconds
+***              |--> disk read  = 0.12479 seconds
+***              |--> calc       = 3.048482 seconds
+***     Disk write bandwidth     = 2577.1097049285 MB/s
+***     Disk read  bandwidth     = 4491.19407078501 MB/s
+***     Minimum energy           = -42.5612331660708
+***     Maximum discarded weight = 4.55892514083848e-07
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -42.5612331313652
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -42.5612331313654
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -42.5612331313647
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -42.5612331313653
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -42.561233131365
+   Stats: nIt(DAVIDSON) = 5
+Energy at sites (5, 6) is -42.5612331660686
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -42.5612416566566
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -42.562363332869
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (8, 9) is -42.5834877634104
+   Stats: nIt(DAVIDSON) = 22
+Energy at sites (9, 10) is -42.7133535548962
+   Stats: nIt(DAVIDSON) = 22
+Energy at sites (10, 11) is -43.1586146672729
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (11, 12) is -43.2063163740195
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (12, 13) is -43.2085286266882
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (13, 14) is -43.2085312037568
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -43.2085312039886
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.2085312039883
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.2085312039886
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.2085312039887
+******************************************************************
+***  Information on right sweep 1 of instruction 0:
+***     Elapsed wall time        = 113.518731 seconds
+***       |--> S.join            = 0.012959 seconds
+***       |--> S.solve           = 109.727852 seconds
+***       |--> S.split           = 0.327841 seconds
+***       |--> Tensor update     = 3.449693 seconds
+***              |--> create     = 0.105464 seconds
+***              |--> destroy    = 0.011458 seconds
+***              |--> disk write = 0.247762 seconds
+***              |--> disk read  = 0.132937 seconds
+***              |--> calc       = 2.952005 seconds
+***     Disk write bandwidth     = 2627.93149272285 MB/s
+***     Disk read  bandwidth     = 4541.41022293014 MB/s
+***     Minimum energy           = -43.2085312039887
+***     Maximum discarded weight = 4.87850530716013e-05
+***     Energy difference with respect to previous leftright sweep = 1.91934508037411
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -43.2085312039884
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.2085312039889
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.2085312039883
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.2085312039882
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -43.2085312039886
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (13, 14) is -43.2085312041669
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (12, 13) is -43.2085472458391
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -43.2088308460461
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (10, 11) is -43.2116901176247
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.2271210680361
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (8, 9) is -43.2718412683291
+   Stats: nIt(DAVIDSON) = 16
+Energy at sites (7, 8) is -43.2826408012793
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (6, 7) is -43.2832955621329
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (5, 6) is -43.2832800896634
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (4, 5) is -43.2832800947846
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.2832800947848
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.2832800947847
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.2832800947846
+******************************************************************
+***  Information on left sweep 2 of instruction 0:
+***     Elapsed wall time        = 113.652049 seconds
+***       |--> S.join            = 0.008428 seconds
+***       |--> S.solve           = 109.517492 seconds
+***       |--> S.split           = 0.317817 seconds
+***       |--> Tensor update     = 3.807936 seconds
+***              |--> create     = 0.100651 seconds
+***              |--> destroy    = 0.011648 seconds
+***              |--> disk write = 0.25821 seconds
+***              |--> disk read  = 0.141844 seconds
+***              |--> calc       = 3.29551 seconds
+***     Disk write bandwidth     = 2618.43922773388 MB/s
+***     Disk read  bandwidth     = 4590.26509757198 MB/s
+***     Minimum energy           = -43.2832955621329
+***     Maximum discarded weight = 0.000162808175380141
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -43.2832800947841
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.2832800947848
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.2832800947847
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.2832800947847
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -43.2832800947841
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (5, 6) is -43.2832800947865
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -43.2833001035768
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -43.2836698506769
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (8, 9) is -43.2857608319562
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.2914569169636
+   Stats: nIt(DAVIDSON) = 20
+Energy at sites (10, 11) is -43.2980388719376
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (11, 12) is -43.2997796267379
+   Stats: nIt(DAVIDSON) = 12
+Energy at sites (12, 13) is -43.299707590568
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (13, 14) is -43.2996900838365
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -43.2996900843315
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.2996900843315
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.2996900843309
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.2996900843308
+******************************************************************
+***  Information on right sweep 2 of instruction 0:
+***     Elapsed wall time        = 114.025136 seconds
+***       |--> S.join            = 0.008741 seconds
+***       |--> S.solve           = 110.126155 seconds
+***       |--> S.split           = 0.337357 seconds
+***       |--> Tensor update     = 3.55251 seconds
+***              |--> create     = 0.098522 seconds
+***              |--> destroy    = 0.01271 seconds
+***              |--> disk write = 0.260145 seconds
+***              |--> disk read  = 0.146866 seconds
+***              |--> calc       = 3.034195 seconds
+***     Disk write bandwidth     = 2624.00584923004 MB/s
+***     Disk read  bandwidth     = 4603.56510692171 MB/s
+***     Minimum energy           = -43.2997796267379
+***     Maximum discarded weight = 0.000215273131414299
+***     Energy difference with respect to previous leftright sweep = 0.09115888034205
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -43.2996900843307
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.2996900843309
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.2996900843312
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.2996900843315
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -43.2996900843317
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -43.2996900843315
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (12, 13) is -43.2997085031552
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -43.300143627432
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (10, 11) is -43.3024854173774
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.3067452066939
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (8, 9) is -43.3053271143955
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -43.3034575764611
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (6, 7) is -43.3030730544226
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (5, 6) is -43.303056975837
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (4, 5) is -43.303056976437
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.3030569764368
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.3030569764362
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.3030569764364
+******************************************************************
+***  Information on left sweep 3 of instruction 0:
+***     Elapsed wall time        = 112.621551 seconds
+***       |--> S.join            = 0.008835 seconds
+***       |--> S.solve           = 108.403832 seconds
+***       |--> S.split           = 0.337717 seconds
+***       |--> Tensor update     = 3.870799 seconds
+***              |--> create     = 0.097781 seconds
+***              |--> destroy    = 0.012841 seconds
+***              |--> disk write = 0.262179 seconds
+***              |--> disk read  = 0.147663 seconds
+***              |--> calc       = 3.350262 seconds
+***     Disk write bandwidth     = 2608.7348633632 MB/s
+***     Disk read  bandwidth     = 4622.83714707103 MB/s
+***     Minimum energy           = -43.3067452066939
+***     Maximum discarded weight = 0.00022941626538063
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -43.3030569764368
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.3030569764364
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.3030569764363
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.3030569764366
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -43.3030569764368
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -43.3030569764366
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (6, 7) is -43.3030736743008
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -43.3035295436597
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (8, 9) is -43.3059606182713
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.309914295892
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (10, 11) is -43.3066660153455
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -43.3043668370851
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -43.3039194987351
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (13, 14) is -43.3039044862718
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -43.3039044869488
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.3039044869481
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.3039044869482
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.3039044869478
+******************************************************************
+***  Information on right sweep 3 of instruction 0:
+***     Elapsed wall time        = 112.301202 seconds
+***       |--> S.join            = 0.008871 seconds
+***       |--> S.solve           = 108.383927 seconds
+***       |--> S.split           = 0.338042 seconds
+***       |--> Tensor update     = 3.569974 seconds
+***              |--> create     = 0.097775 seconds
+***              |--> destroy    = 0.012687 seconds
+***              |--> disk write = 0.262274 seconds
+***              |--> disk read  = 0.149351 seconds
+***              |--> calc       = 3.047822 seconds
+***     Disk write bandwidth     = 2607.89649074581 MB/s
+***     Disk read  bandwidth     = 4579.51736340365 MB/s
+***     Minimum energy           = -43.309914295892
+***     Maximum discarded weight = 0.000236790502566157
+***     Energy difference with respect to previous leftright sweep = 0.00421440261698081
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -43.3039044869478
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.3039044869479
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.3039044869485
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.3039044869482
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -43.3039044869487
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -43.3039044869487
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (12, 13) is -43.303919870602
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -43.3043842105244
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (10, 11) is -43.3068480687851
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.3108440154521
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (8, 9) is -43.3071263432093
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -43.3046714790765
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (6, 7) is -43.3042075855127
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (5, 6) is -43.3041927481652
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (4, 5) is -43.3041927485731
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.3041927485725
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.3041927485722
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.3041927485724
+******************************************************************
+***  Information on left sweep 4 of instruction 0:
+***     Elapsed wall time        = 113.354125 seconds
+***       |--> S.join            = 0.008887 seconds
+***       |--> S.solve           = 109.124786 seconds
+***       |--> S.split           = 0.34715 seconds
+***       |--> Tensor update     = 3.872923 seconds
+***              |--> create     = 0.097559 seconds
+***              |--> destroy    = 0.012477 seconds
+***              |--> disk write = 0.263439 seconds
+***              |--> disk read  = 0.147977 seconds
+***              |--> calc       = 3.3514 seconds
+***     Disk write bandwidth     = 2597.04478055204 MB/s
+***     Disk read  bandwidth     = 4622.22807743005 MB/s
+***     Minimum energy           = -43.3108440154521
+***     Maximum discarded weight = 0.000243210400693435
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -43.3041927485723
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.3041927485724
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.3041927485721
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.3041927485726
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -43.3041927485725
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -43.3041927485721
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (6, 7) is -43.3042078081789
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -43.304679917649
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (8, 9) is -43.3072068034813
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.311163936958
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (10, 11) is -43.3074162573395
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -43.3049187435541
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -43.3044307273309
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (13, 14) is -43.304416682437
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -43.3044166826402
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.3044166826397
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.3044166826402
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.3044166826407
+******************************************************************
+***  Information on right sweep 4 of instruction 0:
+***     Elapsed wall time        = 113.517609 seconds
+***       |--> S.join            = 0.011628 seconds
+***       |--> S.solve           = 109.600956 seconds
+***       |--> S.split           = 0.343123 seconds
+***       |--> Tensor update     = 3.561538 seconds
+***              |--> create     = 0.097322 seconds
+***              |--> destroy    = 0.012386 seconds
+***              |--> disk write = 0.261787 seconds
+***              |--> disk read  = 0.147821 seconds
+***              |--> calc       = 3.042144 seconds
+***     Disk write bandwidth     = 2613.39614727634 MB/s
+***     Disk read  bandwidth     = 4628.31992709999 MB/s
+***     Minimum energy           = -43.311163936958
+***     Maximum discarded weight = 0.000244298988726766
+***     Energy difference with respect to previous leftright sweep = 0.000512195692977002
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -43.3044166826406
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.3044166826409
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.3044166826404
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.3044166826398
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -43.3044166826403
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -43.3044166826407
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (12, 13) is -43.3044308799941
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -43.3049238306925
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (10, 11) is -43.307466037281
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.311392018174
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (8, 9) is -43.3076765585558
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -43.3051013289663
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (6, 7) is -43.3046003095523
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (5, 6) is -43.3045866531635
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (4, 5) is -43.3045866533815
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.3045866533816
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.304586653382
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.3045866533813
+******************************************************************
+***  Information on left sweep 5 of instruction 0:
+***     Elapsed wall time        = 113.806274 seconds
+***       |--> S.join            = 0.009145 seconds
+***       |--> S.solve           = 109.636132 seconds
+***       |--> S.split           = 0.343527 seconds
+***       |--> Tensor update     = 3.817084 seconds
+***              |--> create     = 0.097295 seconds
+***              |--> destroy    = 0.012529 seconds
+***              |--> disk write = 0.260786 seconds
+***              |--> disk read  = 0.146783 seconds
+***              |--> calc       = 3.299618 seconds
+***     Disk write bandwidth     = 2622.51936859943 MB/s
+***     Disk read  bandwidth     = 4660.98347361092 MB/s
+***     Minimum energy           = -43.311392018174
+***     Maximum discarded weight = 0.000245192457518972
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -43.3045866533823
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.3045866533814
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.304586653382
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.304586653382
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -43.3045866533815
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -43.3045866533816
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (6, 7) is -43.3046004086145
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -43.3051042835796
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (8, 9) is -43.307741876713
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.311561750063
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (10, 11) is -43.3079397905117
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -43.3053078594395
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -43.3048014656425
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (13, 14) is -43.3047876763188
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -43.3047876764854
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.3047876764851
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.3047876764846
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.304787676485
+******************************************************************
+***  Information on right sweep 5 of instruction 0:
+***     Elapsed wall time        = 113.415184 seconds
+***       |--> S.join            = 0.009128 seconds
+***       |--> S.solve           = 109.510424 seconds
+***       |--> S.split           = 0.343412 seconds
+***       |--> Tensor update     = 3.551839 seconds
+***              |--> create     = 0.097126 seconds
+***              |--> destroy    = 0.013258 seconds
+***              |--> disk write = 0.259626 seconds
+***              |--> disk read  = 0.146948 seconds
+***              |--> calc       = 3.034812 seconds
+***     Disk write bandwidth     = 2634.7176273966 MB/s
+***     Disk read  bandwidth     = 4654.13844393643 MB/s
+***     Minimum energy           = -43.311561750063
+***     Maximum discarded weight = 0.000245821971509783
+***     Energy difference with respect to previous leftright sweep = 0.000370993844285294
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -43.304787676485
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.3047876764848
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.3047876764847
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.304787676485
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -43.3047876764855
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -43.3047876764855
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (12, 13) is -43.3048015431145
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -43.3053103006226
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (10, 11) is -43.3080117775137
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.3117742147705
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (8, 9) is -43.3080992484939
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -43.3054372434058
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (6, 7) is -43.3049306116309
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (5, 6) is -43.3049167662556
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (4, 5) is -43.3049167663488
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.304916766348
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.3049167663482
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.3049167663487
+******************************************************************
+***  Information on left sweep 6 of instruction 0:
+***     Elapsed wall time        = 114.018782 seconds
+***       |--> S.join            = 0.009119 seconds
+***       |--> S.solve           = 109.799143 seconds
+***       |--> S.split           = 0.344979 seconds
+***       |--> Tensor update     = 3.865161 seconds
+***              |--> create     = 0.097133 seconds
+***              |--> destroy    = 0.013483 seconds
+***              |--> disk write = 0.25986 seconds
+***              |--> disk read  = 0.147348 seconds
+***              |--> calc       = 3.347273 seconds
+***     Disk write bandwidth     = 2633.53179107222 MB/s
+***     Disk read  bandwidth     = 4642.35143151226 MB/s
+***     Minimum energy           = -43.3117742147705
+***     Maximum discarded weight = 0.000246895443911289
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -43.3049167663485
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.3049167663487
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.304916766348
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.3049167663479
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -43.3049167663482
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -43.304916766348
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (6, 7) is -43.3049306697961
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -43.305439861881
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (8, 9) is -43.3081512993598
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.3119247616252
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (10, 11) is -43.3082163512493
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -43.305517140323
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -43.3050098962589
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (13, 14) is -43.3049955662963
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -43.3049955663495
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.30499556635
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.3049955663498
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.3049955663495
+******************************************************************
+***  Information on right sweep 6 of instruction 0:
+***     Elapsed wall time        = 113.726806 seconds
+***       |--> S.join            = 0.010613 seconds
+***       |--> S.solve           = 109.80267 seconds
+***       |--> S.split           = 0.346883 seconds
+***       |--> Tensor update     = 3.566248 seconds
+***              |--> create     = 0.097332 seconds
+***              |--> destroy    = 0.017109 seconds
+***              |--> disk write = 0.259084 seconds
+***              |--> disk read  = 0.146844 seconds
+***              |--> calc       = 3.045805 seconds
+***     Disk write bandwidth     = 2641.59737623328 MB/s
+***     Disk read  bandwidth     = 4660.38497472166 MB/s
+***     Minimum energy           = -43.3119247616252
+***     Maximum discarded weight = 0.000247776656872198
+***     Energy difference with respect to previous leftright sweep = 0.000207889864441313
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -43.3049955663496
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.3049955663496
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.3049955663497
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.3049955663495
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -43.3049955663495
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -43.3049955663495
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (12, 13) is -43.3050099352567
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -43.3055180368285
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (10, 11) is -43.3082395208419
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.3120036967637
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (8, 9) is -43.3083069373497
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -43.3055931551379
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (6, 7) is -43.3050804409061
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (5, 6) is -43.3050672057346
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (4, 5) is -43.3050672058088
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.305067205809
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.3050672058089
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.3050672058088
+******************************************************************
+***  Information on left sweep 7 of instruction 0:
+***     Elapsed wall time        = 114.105273 seconds
+***       |--> S.join            = 0.009235 seconds
+***       |--> S.solve           = 109.847379 seconds
+***       |--> S.split           = 0.345273 seconds
+***       |--> Tensor update     = 3.903006 seconds
+***              |--> create     = 0.09787 seconds
+***              |--> destroy    = 0.017937 seconds
+***              |--> disk write = 0.259321 seconds
+***              |--> disk read  = 0.145637 seconds
+***              |--> calc       = 3.382173 seconds
+***     Disk write bandwidth     = 2637.94292593951 MB/s
+***     Disk read  bandwidth     = 4699.32513457448 MB/s
+***     Minimum energy           = -43.3120036967637
+***     Maximum discarded weight = 0.000248008152235887
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -43.3050672058087
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.3050672058089
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.3050672058087
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.305067205809
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -43.3050672058089
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -43.3050672058089
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (6, 7) is -43.3050804721273
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -43.3055919505858
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (8, 9) is -43.3083282583292
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.312079966214
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (10, 11) is -43.3084302904432
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -43.3057077994101
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -43.305192232346
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (13, 14) is -43.3051787345149
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -43.3051787345823
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.3051787345827
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.3051787345827
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.3051787345823
+******************************************************************
+***  Information on right sweep 7 of instruction 0:
+***     Elapsed wall time        = 113.816643 seconds
+***       |--> S.join            = 0.009158 seconds
+***       |--> S.solve           = 109.896304 seconds
+***       |--> S.split           = 0.343891 seconds
+***       |--> Tensor update     = 3.566904 seconds
+***              |--> create     = 0.09806 seconds
+***              |--> destroy    = 0.017342 seconds
+***              |--> disk write = 0.258923 seconds
+***              |--> disk read  = 0.14565 seconds
+***              |--> calc       = 3.046859 seconds
+***     Disk write bandwidth     = 2640.51985465432 MB/s
+***     Disk read  bandwidth     = 4696.69754546899 MB/s
+***     Minimum energy           = -43.312079966214
+***     Maximum discarded weight = 0.000248189812253879
+***     Energy difference with respect to previous leftright sweep = 0.000183168232865683
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -43.3051787345828
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.3051787345825
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.3051787345825
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.3051787345823
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -43.3051787345821
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -43.3051787345821
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (12, 13) is -43.3051922577838
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -43.3057072633477
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (10, 11) is -43.3084599458466
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.3122003257258
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (8, 9) is -43.3085507435638
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -43.3058090983284
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (6, 7) is -43.3053045940666
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (5, 6) is -43.3052912274757
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (4, 5) is -43.305291227693
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.3052912276936
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.3052912276934
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.3052912276929
+******************************************************************
+***  Information on left sweep 8 of instruction 0:
+***     Elapsed wall time        = 114.342557 seconds
+***       |--> S.join            = 0.009076 seconds
+***       |--> S.solve           = 110.118013 seconds
+***       |--> S.split           = 0.346131 seconds
+***       |--> Tensor update     = 3.86895 seconds
+***              |--> create     = 0.097957 seconds
+***              |--> destroy    = 0.017872 seconds
+***              |--> disk write = 0.259485 seconds
+***              |--> disk read  = 0.145706 seconds
+***              |--> calc       = 3.347854 seconds
+***     Disk write bandwidth     = 2635.91566202872 MB/s
+***     Disk read  bandwidth     = 4692.26608599962 MB/s
+***     Minimum energy           = -43.3122003257258
+***     Maximum discarded weight = 0.000248535411144381
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -43.305291227693
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.305291227693
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.3052912276934
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.3052912276936
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -43.3052912276931
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -43.3052912276934
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (6, 7) is -43.3053046631512
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -43.3058112888317
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (8, 9) is -43.3085668990186
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.3123151674765
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (10, 11) is -43.3086467669734
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -43.3058682609105
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -43.3053658479762
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (13, 14) is -43.3053525886676
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -43.3053525888646
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.3053525888653
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.3053525888656
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.305352588865
+******************************************************************
+***  Information on right sweep 8 of instruction 0:
+***     Elapsed wall time        = 114.233437 seconds
+***       |--> S.join            = 0.009169 seconds
+***       |--> S.solve           = 110.289622 seconds
+***       |--> S.split           = 0.343236 seconds
+***       |--> Tensor update     = 3.591017 seconds
+***              |--> create     = 0.097657 seconds
+***              |--> destroy    = 0.017354 seconds
+***              |--> disk write = 0.259804 seconds
+***              |--> disk read  = 0.146992 seconds
+***              |--> calc       = 3.069137 seconds
+***     Disk write bandwidth     = 2632.81438670436 MB/s
+***     Disk read  bandwidth     = 4653.18231986451 MB/s
+***     Minimum energy           = -43.3123151674765
+***     Maximum discarded weight = 0.000249336531872089
+***     Energy difference with respect to previous leftright sweep = 0.000173854282706998
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -43.305352588865
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.3053525888649
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.3053525888655
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.3053525888653
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -43.3053525888647
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -43.3053525888646
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (12, 13) is -43.3053659146461
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -43.3058701250122
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (10, 11) is -43.3086569308986
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.3123710090131
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (8, 9) is -43.3087003767988
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -43.3058875908656
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (6, 7) is -43.3053837703369
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (5, 6) is -43.3053705202877
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (4, 5) is -43.3053705203216
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.3053705203212
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.3053705203216
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.3053705203222
+******************************************************************
+***  Information on left sweep 9 of instruction 0:
+***     Elapsed wall time        = 114.536787 seconds
+***       |--> S.join            = 0.009101 seconds
+***       |--> S.solve           = 110.276576 seconds
+***       |--> S.split           = 0.347085 seconds
+***       |--> Tensor update     = 3.903633 seconds
+***              |--> create     = 0.098107 seconds
+***              |--> destroy    = 0.019925 seconds
+***              |--> disk write = 0.260315 seconds
+***              |--> disk read  = 0.146215 seconds
+***              |--> calc       = 3.379001 seconds
+***     Disk write bandwidth     = 2628.6781597817 MB/s
+***     Disk read  bandwidth     = 4678.1500456406 MB/s
+***     Minimum energy           = -43.3123710090131
+***     Maximum discarded weight = 0.000251382158551179
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -43.3053705203214
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -43.3053705203221
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -43.3053705203214
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -43.3053705203213
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -43.3053705203216
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -43.3053705203217
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (6, 7) is -43.3053837870585
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -43.3058882426577
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (8, 9) is -43.308713571541
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (9, 10) is -43.3124229157754
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (10, 11) is -43.3087844278095
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -43.3059429816923
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -43.3054381941017
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (13, 14) is -43.3054249660894
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (14, 15) is -43.3054249661088
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -43.3054249661089
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -43.3054249661089
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -43.3054249661094
+******************************************************************
+***  Information on right sweep 9 of instruction 0:
+***     Elapsed wall time        = 114.245749 seconds
+***       |--> S.join            = 0.010032 seconds
+***       |--> S.solve           = 110.291652 seconds
+***       |--> S.split           = 0.345618 seconds
+***       |--> Tensor update     = 3.598044 seconds
+***              |--> create     = 0.097804 seconds
+***              |--> destroy    = 0.017689 seconds
+***              |--> disk write = 0.259937 seconds
+***              |--> disk read  = 0.147215 seconds
+***              |--> calc       = 3.075322 seconds
+***     Disk write bandwidth     = 2632.5007796642 MB/s
+***     Disk read  bandwidth     = 4648.19722965441 MB/s
+***     Minimum energy           = -43.3124229157754
+***     Maximum discarded weight = 0.000251662840342098
+***     Energy difference with respect to previous leftright sweep = 7.23772443507187e-05
+******************************************************************
+***  Information on completed instruction 0:
+***     The reduced virtual dimension DSU(2)               = 500
+***     Minimum energy encountered during all instructions = -43.3124229157754
+***     Minimum energy encountered during the last sweep   = -43.3124229157754
+***     Maximum discarded weight during the last sweep     = 0.000251662840342098
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+********************************************
+***  2-RDM and Correlations calculation  ***
+********************************************
+   N(N-1)                     = 380
+   Double trace of DMRG 2-RDM = 380
+   Energy obtained by Heff at edge   = -43.3054249661091
+   Econst + 0.5 * trace(2DM-A * Ham) = -43.3054249661154
+   NOON of irrep Ag = [ 1.97762941637949 , 1.97258779599856 , 1.96032130982914 , 1.93466027891793 , 1.88673306566127 , 0.142987739227417 , 0.0862417092831345 , 0.0503401133174449 , 0.0323993975575244 , 0.0242402938119916 ].
+   NOON of irrep Au = [ 1.97579785856949 , 1.96764921843439 , 1.94971616352955 , 1.91384915120933 , 1.8565022257301 , 0.113349221183624 , 0.0653908397560587 , 0.0397386840445758 , 0.0274535619539804 , 0.0224119556049879 ].
+   Single-orbital entropies (Hamiltonian index order is used!) = [ 0.121488969691879 , 0.129597947081407 , 0.143455733135625 , 0.16406377454795 , 0.193370979627077 , 0.232403903884665 , 0.284111998660498 , 0.348152306603931 , 0.420901999936426 , 0.490743554292263 , 0.489637085700898 , 0.42104107111983 , 0.348427999960498 , 0.284296841359329 , 0.232611306396032 , 0.193608053177036 , 0.16426171065927 , 0.143627106363952 , 0.129758509483512 , 0.12166727574086 ].
+   Idistance(0) = 2.41850270323968
+   Idistance(1) = 12.5559411658893
+   Idistance(2) = 105.940467855483
+***************************************************
+***  Timing information 2-RDM and Correlations  ***
+***************************************************
+***     Elapsed wall time        = 15.696342 seconds
+***       |--> MPS gauge change  = 0.052545 seconds
+***       |--> Diagram calc      = 6.77154 seconds
+***       |--> Tensor update     = 8.863787 seconds
+***              |--> create     = 0.199709 seconds
+***              |--> destroy    = 0.0354800000000001 seconds
+***              |--> disk write = 0.526322 seconds
+***              |--> disk read  = 0.326216 seconds
+***              |--> calc       = 7.77574899999999 seconds
+***     Disk write bandwidth     = 2600.51287626495 MB/s
+***     Disk read  bandwidth     = 4195.70817514016 MB/s
+***************************************************
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (18, 19) is 39.3114249123353
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (17, 18) is 32.9710647806668
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (16, 17) is 23.5866463492324
+   Stats: nIt(DAVIDSON) = 20
+Energy at sites (15, 16) is 15.5217426294727
+   Stats: nIt(DAVIDSON) = 22
+Energy at sites (14, 15) is 11.9108207057996
+   Stats: nIt(DAVIDSON) = 61
+Energy at sites (13, 14) is -24.4636078791342
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (12, 13) is -31.6638304319428
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (11, 12) is -32.6170991496384
+   Stats: nIt(DAVIDSON) = 12
+Energy at sites (10, 11) is -35.3226384775621
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (9, 10) is -36.1476256536117
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (8, 9) is -36.3929020551657
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (7, 8) is -36.4194417333305
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -36.5746867977116
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (5, 6) is -36.6678971026369
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (4, 5) is -36.6663118518652
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -36.6663118518649
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -36.6663118518651
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -36.6663118518651
+******************************************************************
+***  Information on left sweep 0 of instruction 0:
+***     Elapsed wall time        = 122.133442 seconds
+***       |--> S.join            = 0.015739 seconds
+***       |--> S.solve           = 119.097066 seconds
+***       |--> S.split           = 0.41234 seconds
+***       |--> Tensor update     = 2.607877 seconds
+***              |--> create     = 0.144007 seconds
+***              |--> destroy    = 0.010482 seconds
+***              |--> disk write = 0.196763 seconds
+***              |--> disk read  = 0.113369 seconds
+***              |--> calc       = 2.143187 seconds
+***     Disk write bandwidth     = 2410.30736399286 MB/s
+***     Disk read  bandwidth     = 4183.32443491014 MB/s
+***     Minimum energy           = -36.6678971026369
+***     Maximum discarded weight = 0
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -36.6663118518652
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -36.6663118518651
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -36.6663118518653
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -36.6663118518647
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -36.6663118518659
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (5, 6) is -36.6678971026386
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -36.6744285223531
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (7, 8) is -36.7118880764978
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (8, 9) is -36.8255740028191
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (9, 10) is -37.2963163657538
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (10, 11) is -37.5414921306461
+   Stats: nIt(DAVIDSON) = 12
+Energy at sites (11, 12) is -37.642002589716
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -37.7022229313708
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (13, 14) is -37.7507712929349
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (14, 15) is -37.750771283424
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -37.7507712834239
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -37.7507712834245
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -37.7507712834234
+******************************************************************
+***  Information on right sweep 0 of instruction 0:
+***     Elapsed wall time        = 63.029279 seconds
+***       |--> S.join            = 0.00729 seconds
+***       |--> S.solve           = 59.652645 seconds
+***       |--> S.split           = 0.256952 seconds
+***       |--> Tensor update     = 3.112002 seconds
+***              |--> create     = 0.128875 seconds
+***              |--> destroy    = 0.010236 seconds
+***              |--> disk write = 0.222599 seconds
+***              |--> disk read  = 0.112817 seconds
+***              |--> calc       = 2.637397 seconds
+***     Disk write bandwidth     = 2572.10145011145 MB/s
+***     Disk read  bandwidth     = 4203.79293777824 MB/s
+***     Minimum energy           = -37.7507712929349
+***     Maximum discarded weight = 1.92446357824007e-10
+***     Energy difference with respect to previous leftright sweep = 37.7507712834234
+******************************************************************
+The overlap between the current state and state 0 is : -0.00260670018859432
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -37.7507712834231
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -37.7507712834238
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -37.7507712834245
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -37.7507712834239
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -37.7507712834239
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (13, 14) is -37.7507712928615
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -37.7584027529225
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -37.7990142424413
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (10, 11) is -38.0382096211044
+   Stats: nIt(DAVIDSON) = 26
+Energy at sites (9, 10) is -38.6617902725261
+   Stats: nIt(DAVIDSON) = 23
+Energy at sites (8, 9) is -39.0853311844212
+   Stats: nIt(DAVIDSON) = 16
+Energy at sites (7, 8) is -39.2414887726591
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (6, 7) is -39.2706504982622
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (5, 6) is -39.2706580208725
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (4, 5) is -39.2706580194749
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.2706580194753
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.2706580194753
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.2706580194749
+******************************************************************
+***  Information on left sweep 1 of instruction 0:
+***     Elapsed wall time        = 119.748788 seconds
+***       |--> S.join            = 0.008124 seconds
+***       |--> S.solve           = 115.782275 seconds
+***       |--> S.split           = 0.345668 seconds
+***       |--> Tensor update     = 3.612327 seconds
+***              |--> create     = 0.10966 seconds
+***              |--> destroy    = 0.012832 seconds
+***              |--> disk write = 0.236351 seconds
+***              |--> disk read  = 0.13001 seconds
+***              |--> calc       = 3.123409 seconds
+***     Disk write bandwidth     = 2596.08397579112 MB/s
+***     Disk read  bandwidth     = 4403.87055375248 MB/s
+***     Minimum energy           = -39.2706580208725
+***     Maximum discarded weight = 5.35800159453245e-06
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -39.2706580194755
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.2706580194751
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.2706580194753
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.2706580194755
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -39.270658019475
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (5, 6) is -39.2706580208736
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -39.2706661605961
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (7, 8) is -39.2738834543161
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (8, 9) is -39.3398460652629
+   Stats: nIt(DAVIDSON) = 36
+Energy at sites (9, 10) is -39.8078032101998
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (10, 11) is -40.1498698293575
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (11, 12) is -40.1886912445794
+   Stats: nIt(DAVIDSON) = 12
+Energy at sites (12, 13) is -40.1899313209575
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (13, 14) is -40.1899333940545
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -40.1899333944353
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.1899333944349
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.1899333944357
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.189933394436
+******************************************************************
+***  Information on right sweep 1 of instruction 0:
+***     Elapsed wall time        = 161.199745 seconds
+***       |--> S.join            = 0.008403 seconds
+***       |--> S.solve           = 157.230228 seconds
+***       |--> S.split           = 0.327286 seconds
+***       |--> Tensor update     = 3.633421 seconds
+***              |--> create     = 0.103832 seconds
+***              |--> destroy    = 0.015181 seconds
+***              |--> disk write = 0.249178 seconds
+***              |--> disk read  = 0.136911 seconds
+***              |--> calc       = 3.128248 seconds
+***     Disk write bandwidth     = 2630.35117033164 MB/s
+***     Disk read  bandwidth     = 4481.64898190947 MB/s
+***     Minimum energy           = -40.189933394436
+***     Maximum discarded weight = 0.00112144289434304
+***     Energy difference with respect to previous leftright sweep = 2.43916211101259
+******************************************************************
+The overlap between the current state and state 0 is : 0.00348140766345384
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -40.1899333944352
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.1899333944356
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.1899333944353
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.1899333944353
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -40.1899333944352
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -40.1899333944353
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -40.1899371535131
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -40.1903532623138
+   Stats: nIt(DAVIDSON) = 24
+Energy at sites (10, 11) is -40.1995886715349
+   Stats: nIt(DAVIDSON) = 37
+Energy at sites (9, 10) is -40.3592936906925
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (8, 9) is -40.2891819510837
+   Stats: nIt(DAVIDSON) = 16
+Energy at sites (7, 8) is -40.2869471392527
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (6, 7) is -40.2867646221997
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (5, 6) is -40.2867623039506
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (4, 5) is -40.2867623136532
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.286762313653
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.2867623136525
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.2867623136527
+******************************************************************
+***  Information on left sweep 2 of instruction 0:
+***     Elapsed wall time        = 181.389753 seconds
+***       |--> S.join            = 0.009217 seconds
+***       |--> S.solve           = 177.047909 seconds
+***       |--> S.split           = 0.331627 seconds
+***       |--> Tensor update     = 4.000614 seconds
+***              |--> create     = 0.100765 seconds
+***              |--> destroy    = 0.014894 seconds
+***              |--> disk write = 0.254499 seconds
+***              |--> disk read  = 0.142952 seconds
+***              |--> calc       = 3.487435 seconds
+***     Disk write bandwidth     = 2615.56505686172 MB/s
+***     Disk read  bandwidth     = 4584.9351105329 MB/s
+***     Minimum energy           = -40.3592936906925
+***     Maximum discarded weight = 0.00386515277689431
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -40.2867623136526
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.2867623136527
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.2867623136527
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.2867623136533
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -40.2867623136525
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (5, 6) is -40.2867623136571
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -40.2867656217535
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -40.2871613903495
+   Stats: nIt(DAVIDSON) = 24
+Energy at sites (8, 9) is -40.294653233135
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (9, 10) is -40.40509828131
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (10, 11) is -40.3013611384619
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (11, 12) is -40.2949530073199
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (12, 13) is -40.2945894391924
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (13, 14) is -40.2945872646067
+   Stats: nIt(DAVIDSON) = 5
+Energy at sites (14, 15) is -40.2945872792717
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.2945872792716
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.2945872792715
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.2945872792719
+******************************************************************
+***  Information on right sweep 2 of instruction 0:
+***     Elapsed wall time        = 188.004011 seconds
+***       |--> S.join            = 0.009585 seconds
+***       |--> S.solve           = 183.945846 seconds
+***       |--> S.split           = 0.352096 seconds
+***       |--> Tensor update     = 3.696079 seconds
+***              |--> create     = 0.098776 seconds
+***              |--> destroy    = 0.012703 seconds
+***              |--> disk write = 0.256584 seconds
+***              |--> disk read  = 0.145068 seconds
+***              |--> calc       = 3.182874 seconds
+***     Disk write bandwidth     = 2612.6187848178 MB/s
+***     Disk read  bandwidth     = 4588.59770181053 MB/s
+***     Minimum energy           = -40.40509828131
+***     Maximum discarded weight = 0.00457237897714328
+***     Energy difference with respect to previous leftright sweep = 0.104653884835898
+******************************************************************
+The overlap between the current state and state 0 is : 0.00286417394068434
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -40.2945872792718
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.2945872792718
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.2945872792716
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.2945872792716
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -40.2945872792715
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (13, 14) is -40.2945872792787
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -40.2945905157741
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -40.294998493656
+   Stats: nIt(DAVIDSON) = 21
+Energy at sites (10, 11) is -40.3025109842107
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (9, 10) is -40.4149426620028
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (8, 9) is -40.3042362746531
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (7, 8) is -40.2971140768741
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -40.2967096747242
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (5, 6) is -40.2967069700924
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (4, 5) is -40.2967069767119
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.2967069767118
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.296706976712
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.2967069767114
+******************************************************************
+***  Information on left sweep 3 of instruction 0:
+***     Elapsed wall time        = 187.182916 seconds
+***       |--> S.join            = 0.009721 seconds
+***       |--> S.solve           = 182.791972 seconds
+***       |--> S.split           = 0.354285 seconds
+***       |--> Tensor update     = 4.026533 seconds
+***              |--> create     = 0.098183 seconds
+***              |--> destroy    = 0.012609 seconds
+***              |--> disk write = 0.256865 seconds
+***              |--> disk read  = 0.146044 seconds
+***              |--> calc       = 3.512764 seconds
+***     Disk write bandwidth     = 2619.80954170357 MB/s
+***     Disk read  bandwidth     = 4590.09735616452 MB/s
+***     Minimum energy           = -40.4149426620028
+***     Maximum discarded weight = 0.00478500357249965
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -40.2967069767116
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.2967069767117
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.296706976712
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.2967069767119
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -40.2967069767117
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (5, 6) is -40.296706976716
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -40.2967102192636
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -40.2971296491779
+   Stats: nIt(DAVIDSON) = 23
+Energy at sites (8, 9) is -40.304636915292
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (9, 10) is -40.4182280928538
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (10, 11) is -40.3049332264111
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (11, 12) is -40.2974323145631
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (12, 13) is -40.2970264280375
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (13, 14) is -40.2970235180095
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (14, 15) is -40.2970235211459
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.2970235211458
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.297023521146
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.2970235211461
+******************************************************************
+***  Information on right sweep 3 of instruction 0:
+***     Elapsed wall time        = 189.019335 seconds
+***       |--> S.join            = 0.009781 seconds
+***       |--> S.solve           = 184.967746 seconds
+***       |--> S.split           = 0.357799 seconds
+***       |--> Tensor update     = 3.683607 seconds
+***              |--> create     = 0.09797 seconds
+***              |--> destroy    = 0.012605 seconds
+***              |--> disk write = 0.257628 seconds
+***              |--> disk read  = 0.146092 seconds
+***              |--> calc       = 3.169228 seconds
+***     Disk write bandwidth     = 2618.42355502046 MB/s
+***     Disk read  bandwidth     = 4606.25754955567 MB/s
+***     Minimum energy           = -40.4182280928538
+***     Maximum discarded weight = 0.0048834557295192
+***     Energy difference with respect to previous leftright sweep = 0.002436241874193
+******************************************************************
+The overlap between the current state and state 0 is : 0.0027566835655094
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -40.2970235211454
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.2970235211459
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.297023521146
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.2970235211462
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -40.2970235211461
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (13, 14) is -40.2970235211499
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -40.2970266928091
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -40.2974406026284
+   Stats: nIt(DAVIDSON) = 23
+Energy at sites (10, 11) is -40.3051155918441
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (9, 10) is -40.4189354690556
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (8, 9) is -40.3053080593397
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (7, 8) is -40.2977863112333
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -40.2973836506912
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (5, 6) is -40.297380611154
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (4, 5) is -40.2973806191918
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.2973806191926
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.2973806191923
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.2973806191927
+******************************************************************
+***  Information on left sweep 4 of instruction 0:
+***     Elapsed wall time        = 189.126957 seconds
+***       |--> S.join            = 0.009905 seconds
+***       |--> S.solve           = 184.77429 seconds
+***       |--> S.split           = 0.358205 seconds
+***       |--> Tensor update     = 3.984176 seconds
+***              |--> create     = 0.097925 seconds
+***              |--> destroy    = 0.012738 seconds
+***              |--> disk write = 0.257172 seconds
+***              |--> disk read  = 0.144834 seconds
+***              |--> calc       = 3.471437 seconds
+***     Disk write bandwidth     = 2626.55737263107 MB/s
+***     Disk read  bandwidth     = 4657.60265982306 MB/s
+***     Minimum energy           = -40.4189354690556
+***     Maximum discarded weight = 0.00489532479753439
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -40.2973806191926
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.2973806191925
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.2973806191923
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.2973806191926
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -40.2973806191923
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (5, 6) is -40.2973806191982
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -40.2973839711401
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -40.2977933453178
+   Stats: nIt(DAVIDSON) = 23
+Energy at sites (8, 9) is -40.3054094369586
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (9, 10) is -40.4192580252412
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (10, 11) is -40.305390755979
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (11, 12) is -40.2978117845305
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (12, 13) is -40.2974066975476
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (13, 14) is -40.2974034442231
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (14, 15) is -40.2974034501332
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.2974034501328
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.2974034501328
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.2974034501326
+******************************************************************
+***  Information on right sweep 4 of instruction 0:
+***     Elapsed wall time        = 189.146492 seconds
+***       |--> S.join            = 0.009904 seconds
+***       |--> S.solve           = 185.102728 seconds
+***       |--> S.split           = 0.361377 seconds
+***       |--> Tensor update     = 3.672097 seconds
+***              |--> create     = 0.097755 seconds
+***              |--> destroy    = 0.012793 seconds
+***              |--> disk write = 0.257038 seconds
+***              |--> disk read  = 0.144897 seconds
+***              |--> calc       = 3.159536 seconds
+***     Disk write bandwidth     = 2630.01342053472 MB/s
+***     Disk read  bandwidth     = 4661.77362287885 MB/s
+***     Minimum energy           = -40.4192580252412
+***     Maximum discarded weight = 0.00492246638760674
+***     Energy difference with respect to previous leftright sweep = 0.000379928986490086
+******************************************************************
+The overlap between the current state and state 0 is : -0.00275436601186183
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -40.2974034501327
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.2974034501326
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.2974034501327
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.2974034501328
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -40.2974034501331
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (13, 14) is -40.2974034501366
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -40.2974068838399
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -40.2978158967105
+   Stats: nIt(DAVIDSON) = 23
+Energy at sites (10, 11) is -40.3054617319018
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (9, 10) is -40.4194110765976
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (8, 9) is -40.3056077620929
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (7, 8) is -40.2980110652619
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -40.2976019777396
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (5, 6) is -40.297598580073
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (4, 5) is -40.2975985803828
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.2975985803829
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.2975985803831
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.2975985803826
+******************************************************************
+***  Information on left sweep 5 of instruction 0:
+***     Elapsed wall time        = 189.508123 seconds
+***       |--> S.join            = 0.009841 seconds
+***       |--> S.solve           = 185.106662 seconds
+***       |--> S.split           = 0.360282 seconds
+***       |--> Tensor update     = 4.030933 seconds
+***              |--> create     = 0.098067 seconds
+***              |--> destroy    = 0.01317 seconds
+***              |--> disk write = 0.25748 seconds
+***              |--> disk read  = 0.144291 seconds
+***              |--> calc       = 3.517866 seconds
+***     Disk write bandwidth     = 2626.02287104027 MB/s
+***     Disk read  bandwidth     = 4685.06968270649 MB/s
+***     Minimum energy           = -40.4194110765976
+***     Maximum discarded weight = 0.00492165980715029
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -40.2975985803829
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.2975985803824
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.2975985803828
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.297598580383
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -40.297598580383
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -40.2975985803822
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -40.2976020308395
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -40.2980132736732
+   Stats: nIt(DAVIDSON) = 23
+Energy at sites (8, 9) is -40.3056449523884
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (9, 10) is -40.41953778274
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (10, 11) is -40.3057521467013
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (11, 12) is -40.2981465321798
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (12, 13) is -40.2977259668269
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (13, 14) is -40.2977224422594
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -40.2977224424914
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.2977224424915
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.2977224424915
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.2977224424914
+******************************************************************
+***  Information on right sweep 5 of instruction 0:
+***     Elapsed wall time        = 189.506877 seconds
+***       |--> S.join            = 0.009902 seconds
+***       |--> S.solve           = 185.385235 seconds
+***       |--> S.split           = 0.362463 seconds
+***       |--> Tensor update     = 3.748911 seconds
+***              |--> create     = 0.097685 seconds
+***              |--> destroy    = 0.012763 seconds
+***              |--> disk write = 0.257128 seconds
+***              |--> disk read  = 0.144227 seconds
+***              |--> calc       = 3.237027 seconds
+***     Disk write bandwidth     = 2630.01843797801 MB/s
+***     Disk read  bandwidth     = 4688.08453920174 MB/s
+***     Minimum energy           = -40.41953778274
+***     Maximum discarded weight = 0.00492500058764864
+***     Energy difference with respect to previous leftright sweep = 0.000318992358756987
+******************************************************************
+The overlap between the current state and state 0 is : 0.0027574885439951
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -40.2977224424917
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.2977224424916
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.2977224424911
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.2977224424916
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -40.2977224424914
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -40.2977224424914
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -40.2977259963358
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -40.29814696109
+   Stats: nIt(DAVIDSON) = 23
+Energy at sites (10, 11) is -40.305755424715
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (9, 10) is -40.4196014470917
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (8, 9) is -40.3058383023443
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (7, 8) is -40.2982200001603
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -40.2977978175462
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (5, 6) is -40.2977942622075
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (4, 5) is -40.2977942623553
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.2977942623548
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.2977942623548
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.297794262355
+******************************************************************
+***  Information on left sweep 6 of instruction 0:
+***     Elapsed wall time        = 189.520797 seconds
+***       |--> S.join            = 0.009794 seconds
+***       |--> S.solve           = 185.077623 seconds
+***       |--> S.split           = 0.361251 seconds
+***       |--> Tensor update     = 4.071742 seconds
+***              |--> create     = 0.09769 seconds
+***              |--> destroy    = 0.008888 seconds
+***              |--> disk write = 0.256521 seconds
+***              |--> disk read  = 0.143953 seconds
+***              |--> calc       = 3.564615 seconds
+***     Disk write bandwidth     = 2636.64336645098 MB/s
+***     Disk read  bandwidth     = 4697.72343001126 MB/s
+***     Minimum energy           = -40.4196014470917
+***     Maximum discarded weight = 0.00492568419521245
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -40.2977942623548
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.297794262355
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.2977942623548
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.2977942623547
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -40.2977942623546
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -40.2977942623552
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -40.2977978361257
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -40.2982200134312
+   Stats: nIt(DAVIDSON) = 23
+Energy at sites (8, 9) is -40.305833114643
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (9, 10) is -40.4196520301741
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (10, 11) is -40.3058850451091
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (11, 12) is -40.2982739892357
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (12, 13) is -40.2978514902716
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (13, 14) is -40.2978479123665
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (14, 15) is -40.2978479124258
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.2978479124255
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.2978479124259
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.2978479124258
+******************************************************************
+***  Information on right sweep 6 of instruction 0:
+***     Elapsed wall time        = 189.326991 seconds
+***       |--> S.join            = 0.009742 seconds
+***       |--> S.solve           = 185.216999 seconds
+***       |--> S.split           = 0.356401 seconds
+***       |--> Tensor update     = 3.743477 seconds
+***              |--> create     = 0.097098 seconds
+***              |--> destroy    = 0.012907 seconds
+***              |--> disk write = 0.256208 seconds
+***              |--> disk read  = 0.144139 seconds
+***              |--> calc       = 3.233048 seconds
+***     Disk write bandwidth     = 2639.86445780526 MB/s
+***     Disk read  bandwidth     = 4692.37606064543 MB/s
+***     Minimum energy           = -40.4196520301741
+***     Maximum discarded weight = 0.00492657620592173
+***     Energy difference with respect to previous leftright sweep = 0.000125469934459943
+******************************************************************
+The overlap between the current state and state 0 is : -0.00275856958384803
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -40.2978479124262
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.2978479124258
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.2978479124262
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.2978479124251
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -40.2978479124255
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -40.2978479124257
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -40.297851499197
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -40.2982743244402
+   Stats: nIt(DAVIDSON) = 23
+Energy at sites (10, 11) is -40.3058911957139
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (9, 10) is -40.4196927819854
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (8, 9) is -40.3059294174523
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (7, 8) is -40.2983120127653
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -40.2978884613105
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (5, 6) is -40.2978848691079
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (4, 5) is -40.2978848691406
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.2978848691404
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.29788486914
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.2978848691404
+******************************************************************
+***  Information on left sweep 7 of instruction 0:
+***     Elapsed wall time        = 189.42886 seconds
+***       |--> S.join            = 0.009878 seconds
+***       |--> S.solve           = 184.987675 seconds
+***       |--> S.split           = 0.362676 seconds
+***       |--> Tensor update     = 4.068243 seconds
+***              |--> create     = 0.098024 seconds
+***              |--> destroy    = 0.013245 seconds
+***              |--> disk write = 0.257362 seconds
+***              |--> disk read  = 0.144435 seconds
+***              |--> calc       = 3.555106 seconds
+***     Disk write bandwidth     = 2628.02742054138 MB/s
+***     Disk read  bandwidth     = 4682.75967047718 MB/s
+***     Minimum energy           = -40.4196927819854
+***     Maximum discarded weight = 0.00492720752918435
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -40.2978848691404
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.2978848691399
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.2978848691405
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.2978848691407
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -40.2978848691411
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -40.2978848691404
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -40.2978884667349
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -40.2983121918862
+   Stats: nIt(DAVIDSON) = 23
+Energy at sites (8, 9) is -40.3059330949761
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (9, 10) is -40.4197272105231
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (10, 11) is -40.3053225293964
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (11, 12) is -40.2977206190121
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (12, 13) is -40.2972962416065
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (13, 14) is -40.2972926416597
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (14, 15) is -40.2972926417028
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.2972926417027
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.2972926417024
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.2972926417027
+******************************************************************
+***  Information on right sweep 7 of instruction 0:
+***     Elapsed wall time        = 189.45201 seconds
+***       |--> S.join            = 0.009879 seconds
+***       |--> S.solve           = 185.332079 seconds
+***       |--> S.split           = 0.359562 seconds
+***       |--> Tensor update     = 3.750119 seconds
+***              |--> create     = 0.097648 seconds
+***              |--> destroy    = 0.012792 seconds
+***              |--> disk write = 0.256836 seconds
+***              |--> disk read  = 0.145018 seconds
+***              |--> calc       = 3.237753 seconds
+***     Disk write bandwidth     = 2634.27416290477 MB/s
+***     Disk read  bandwidth     = 4663.93408408178 MB/s
+***     Minimum energy           = -40.4197272105231
+***     Maximum discarded weight = 0.00496395992495221
+***     Energy difference with respect to previous leftright sweep = 0.000555270723111789
+******************************************************************
+The overlap between the current state and state 0 is : 0.00268449508489164
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -40.2972926417029
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.2972926417027
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.2972926417026
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.2972926417024
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -40.2972926417028
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -40.297292641702
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -40.2972962458073
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -40.2977207292948
+   Stats: nIt(DAVIDSON) = 23
+Energy at sites (10, 11) is -40.3053246187554
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (9, 10) is -40.4197550661377
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (8, 9) is -40.3053445227237
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (7, 8) is -40.2977367294988
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -40.2973115940428
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (5, 6) is -40.2973079882642
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (4, 5) is -40.2973079882946
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.2973079882944
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.297307988295
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.2973079882951
+******************************************************************
+***  Information on left sweep 8 of instruction 0:
+***     Elapsed wall time        = 189.595269 seconds
+***       |--> S.join            = 0.009902 seconds
+***       |--> S.solve           = 185.155832 seconds
+***       |--> S.split           = 0.362381 seconds
+***       |--> Tensor update     = 4.066782 seconds
+***              |--> create     = 0.097633 seconds
+***              |--> destroy    = 0.01284 seconds
+***              |--> disk write = 0.256664 seconds
+***              |--> disk read  = 0.145348 seconds
+***              |--> calc       = 3.554225 seconds
+***     Disk write bandwidth     = 2636.03948704847 MB/s
+***     Disk read  bandwidth     = 4654.87271172502 MB/s
+***     Minimum energy           = -40.4197550661377
+***     Maximum discarded weight = 0.00496413979943419
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -40.2973079882948
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -40.2973079882951
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -40.2973079882951
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -40.2973079882946
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -40.2973079882946
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -40.2973079882944
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -40.2973115969938
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (7, 8) is -40.2977367902892
+   Stats: nIt(DAVIDSON) = 23
+Energy at sites (8, 9) is -40.3053459182712
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (9, 10) is -40.4197759890945
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (10, 11) is -40.3053687834994
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (11, 12) is -40.2977605446464
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (12, 13) is -40.297335017769
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (13, 14) is -40.2973314057101
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (14, 15) is -40.2973314057161
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -40.2973314057162
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -40.2973314057161
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -40.2973314057166
+******************************************************************
+***  Information on right sweep 8 of instruction 0:
+***     Elapsed wall time        = 189.549367 seconds
+***       |--> S.join            = 0.009908 seconds
+***       |--> S.solve           = 185.434869 seconds
+***       |--> S.split           = 0.364233 seconds
+***       |--> Tensor update     = 3.739975 seconds
+***              |--> create     = 0.097677 seconds
+***              |--> destroy    = 0.009041 seconds
+***              |--> disk write = 0.257306 seconds
+***              |--> disk read  = 0.144655 seconds
+***              |--> calc       = 3.231217 seconds
+***     Disk write bandwidth     = 2629.4623479585 MB/s
+***     Disk read  bandwidth     = 4677.17285198444 MB/s
+***     Minimum energy           = -40.4197759890945
+***     Maximum discarded weight = 0.00496420514218474
+***     Energy difference with respect to previous leftright sweep = 3.87640138796996e-05
+******************************************************************
+The overlap between the current state and state 0 is : -0.00268379162535403
+***  Information on completed instruction 0:
+***     The reduced virtual dimension DSU(2)               = 500
+***     Minimum energy encountered during all instructions = -40.4197759890945
+***     Minimum energy encountered during the last sweep   = -40.4197759890945
+***     Maximum discarded weight during the last sweep     = 0.00496420514218474
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+********************************************
+***  2-RDM and Correlations calculation  ***
+********************************************
+   N(N-1)                     = 380
+   Double trace of DMRG 2-RDM = 380.000000000001
+   Energy obtained by Heff at edge   = -40.2973314057172
+   Econst + 0.5 * trace(2DM-A * Ham) = -40.2974754604855
+   NOON of irrep Ag = [ 1.9794320046115 , 1.97391253027481 , 1.95861456189518 , 1.91446262408333 , 1.69421598864459 , 1.02448828480949 , 0.148101041031866 , 0.0574437590298615 , 0.0321984406632073 , 0.0214742006550847 ].
+   NOON of irrep Au = [ 1.9787681689048 , 1.96804928239575 , 1.94276284080343 , 1.85118058827803 , 0.9769947588545 , 0.303390276507066 , 0.0857592267657764 , 0.0416467896837135 , 0.0263322836578437 , 0.0207723484502005 ].
+   Single-orbital entropies (Hamiltonian index order is used!) = [ 0.118907130117103 , 0.122360520833661 , 0.142892558096589 , 0.177485242758928 , 0.230919352648079 , 0.316556894664495 , 0.469435032661924 , 0.66172715974898 , 1.05320871932369 , 1.3231330209319 , 1.32423080340205 , 1.0500061235615 , 0.660829812690005 , 0.471682596789825 , 0.318948632197685 , 0.232586761963064 , 0.178840294956636 , 0.144112238649704 , 0.123442206455243 , 0.119675570484321 ].
+   Idistance(0) = 2.96301008886381
+   Idistance(1) = 11.0507754079677
+   Idistance(2) = 79.5374282270465
+***************************************************
+***  Timing information 2-RDM and Correlations  ***
+***************************************************
+***     Elapsed wall time        = 16.690238 seconds
+***       |--> MPS gauge change  = 0.056027 seconds
+***       |--> Diagram calc      = 7.354984 seconds
+***       |--> Tensor update     = 9.273433 seconds
+***              |--> create     = 0.199838 seconds
+***              |--> destroy    = 0.020037 seconds
+***              |--> disk write = 0.517761 seconds
+***              |--> disk read  = 0.293454 seconds
+***              |--> calc       = 8.24195900000001 seconds
+***     Disk write bandwidth     = 2613.73796056519 MB/s
+***     Disk read  bandwidth     = 4611.59698010658 MB/s
+***************************************************
+   Stats: nIt(DAVIDSON) = 12
+Energy at sites (18, 19) is 38.5918890416959
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (17, 18) is 32.6984766821204
+   Stats: nIt(DAVIDSON) = 26
+Energy at sites (16, 17) is 28.0659967312629
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (15, 16) is 17.8905362455416
+   Stats: nIt(DAVIDSON) = 26
+Energy at sites (14, 15) is 11.533958140949
+   Stats: nIt(DAVIDSON) = 29
+Energy at sites (13, 14) is 3.2558612999843
+   Stats: nIt(DAVIDSON) = 38
+Energy at sites (12, 13) is -17.6770009781338
+   Stats: nIt(DAVIDSON) = 27
+Energy at sites (11, 12) is -26.981927520504
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (10, 11) is -33.9115436144415
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (9, 10) is -35.1992715453182
+   Stats: nIt(DAVIDSON) = 12
+Energy at sites (8, 9) is -36.1610435497493
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (7, 8) is -36.1507878839033
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -36.1702232488487
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (5, 6) is -36.1969167885061
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (4, 5) is -36.1957010604627
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -36.1957010604638
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -36.1957010604625
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -36.195701060463
+******************************************************************
+***  Information on left sweep 0 of instruction 0:
+***     Elapsed wall time        = 146.631812 seconds
+***       |--> S.join            = 0.015939 seconds
+***       |--> S.solve           = 143.609399 seconds
+***       |--> S.split           = 0.411118 seconds
+***       |--> Tensor update     = 2.594949 seconds
+***              |--> create     = 0.145239 seconds
+***              |--> destroy    = 0.009045 seconds
+***              |--> disk write = 0.198669 seconds
+***              |--> disk read  = 0.116229 seconds
+***              |--> calc       = 2.125687 seconds
+***     Disk write bandwidth     = 2388.85279428886 MB/s
+***     Disk read  bandwidth     = 4083.24080727335 MB/s
+***     Minimum energy           = -36.1969167885061
+***     Maximum discarded weight = 0
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -36.1957010604632
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -36.1957010604631
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -36.1957010604625
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -36.1957010604636
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -36.1957010604636
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (5, 6) is -36.1969167885063
+   Stats: nIt(DAVIDSON) = 9
+Energy at sites (6, 7) is -36.1993268210899
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (7, 8) is -36.2270668729503
+   Stats: nIt(DAVIDSON) = 16
+Energy at sites (8, 9) is -36.3144160887801
+   Stats: nIt(DAVIDSON) = 23
+Energy at sites (9, 10) is -36.668668577555
+   Stats: nIt(DAVIDSON) = 16
+Energy at sites (10, 11) is -36.8555483509962
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (11, 12) is -36.8875765310091
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -36.9042335279156
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (13, 14) is -36.934444352858
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (14, 15) is -36.9344443491258
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -36.934444349126
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -36.9344443491259
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -36.934444349126
+******************************************************************
+***  Information on right sweep 0 of instruction 0:
+***     Elapsed wall time        = 67.48427 seconds
+***       |--> S.join            = 0.00721 seconds
+***       |--> S.solve           = 64.122913 seconds
+***       |--> S.split           = 0.263652 seconds
+***       |--> Tensor update     = 3.090114 seconds
+***              |--> create     = 0.130627 seconds
+***              |--> destroy    = 0.008763 seconds
+***              |--> disk write = 0.221363 seconds
+***              |--> disk read  = 0.115687 seconds
+***              |--> calc       = 2.613597 seconds
+***     Disk write bandwidth     = 2580.23973776026 MB/s
+***     Disk read  bandwidth     = 4102.37101652367 MB/s
+***     Minimum energy           = -36.934444352858
+***     Maximum discarded weight = 7.37882498014849e-11
+***     Energy difference with respect to previous leftright sweep = 36.934444349126
+******************************************************************
+The overlap between the current state and state 0 is : -0.000288707359698905
+The overlap between the current state and state 1 is : 0.00144955104610882
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -36.9344443491267
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -36.9344443491259
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -36.9344443491258
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -36.9344443491264
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -36.9344443491261
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (13, 14) is -36.9344443528198
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -36.9454515430552
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (11, 12) is -36.9864368442802
+   Stats: nIt(DAVIDSON) = 20
+Energy at sites (10, 11) is -37.1499584247558
+   Stats: nIt(DAVIDSON) = 37
+Energy at sites (9, 10) is -37.6473364075222
+   Stats: nIt(DAVIDSON) = 24
+Energy at sites (8, 9) is -38.0783911000318
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (7, 8) is -38.2670467742893
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (6, 7) is -38.3325187329305
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (5, 6) is -38.3325491361906
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -38.3325491361086
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -38.3325491361087
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -38.3325491361089
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -38.3325491361085
+******************************************************************
+***  Information on left sweep 1 of instruction 0:
+***     Elapsed wall time        = 125.911922 seconds
+***       |--> S.join            = 0.008031 seconds
+***       |--> S.solve           = 121.97968 seconds
+***       |--> S.split           = 0.342543 seconds
+***       |--> Tensor update     = 3.581298 seconds
+***              |--> create     = 0.111281 seconds
+***              |--> destroy    = 0.008248 seconds
+***              |--> disk write = 0.237204 seconds
+***              |--> disk read  = 0.131178 seconds
+***              |--> calc       = 3.093321 seconds
+***     Disk write bandwidth     = 2583.51480359181 MB/s
+***     Disk read  bandwidth     = 4354.1570161904 MB/s
+***     Minimum energy           = -38.3325491361906
+***     Maximum discarded weight = 1.29208487423786e-06
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -38.3325491361086
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -38.3325491361086
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -38.3325491361088
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -38.3325491361089
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -38.3325491361085
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (5, 6) is -38.3325491361929
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -38.3325532514709
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (7, 8) is -38.3342117170455
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (8, 9) is -38.3688884329354
+   Stats: nIt(DAVIDSON) = 55
+Energy at sites (9, 10) is -38.6591889672853
+   Stats: nIt(DAVIDSON) = 42
+Energy at sites (10, 11) is -39.0826075661985
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (11, 12) is -39.1380852742996
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (12, 13) is -39.140272244639
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (13, 14) is -39.1402832330751
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -39.1402832341308
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -39.1402832341305
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.1402832341308
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.1402832341314
+******************************************************************
+***  Information on right sweep 1 of instruction 0:
+***     Elapsed wall time        = 192.685729 seconds
+***       |--> S.join            = 0.007955 seconds
+***       |--> S.solve           = 188.777383 seconds
+***       |--> S.split           = 0.318771 seconds
+***       |--> Tensor update     = 3.581244 seconds
+***              |--> create     = 0.104156 seconds
+***              |--> destroy    = 0.008203 seconds
+***              |--> disk write = 0.252914 seconds
+***              |--> disk read  = 0.138484 seconds
+***              |--> calc       = 3.077415 seconds
+***     Disk write bandwidth     = 2611.58813726578 MB/s
+***     Disk read  bandwidth     = 4425.20468408763 MB/s
+***     Minimum energy           = -39.1402832341314
+***     Maximum discarded weight = 0.000689463000805826
+***     Energy difference with respect to previous leftright sweep = 2.20583888500539
+******************************************************************
+The overlap between the current state and state 0 is : 0.00211683799417403
+The overlap between the current state and state 1 is : 0.00361609197777217
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -39.1402832341309
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.1402832341313
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.1402832341308
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -39.1402832341306
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -39.1402832341305
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -39.1402832341311
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -39.1402899716692
+   Stats: nIt(DAVIDSON) = 16
+Energy at sites (11, 12) is -39.1408263469889
+   Stats: nIt(DAVIDSON) = 32
+Energy at sites (10, 11) is -39.1577322466136
+   Stats: nIt(DAVIDSON) = 50
+Energy at sites (9, 10) is -39.3835756034855
+   Stats: nIt(DAVIDSON) = 36
+Energy at sites (8, 9) is -39.4532747207861
+   Stats: nIt(DAVIDSON) = 19
+Energy at sites (7, 8) is -39.4566921568288
+   Stats: nIt(DAVIDSON) = 13
+Energy at sites (6, 7) is -39.457187992187
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (5, 6) is -39.457190104275
+   Stats: nIt(DAVIDSON) = 5
+Energy at sites (4, 5) is -39.457190127071
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.457190127071
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.4571901270704
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.4571901270708
+******************************************************************
+***  Information on left sweep 2 of instruction 0:
+***     Elapsed wall time        = 223.275244 seconds
+***       |--> S.join            = 0.008746 seconds
+***       |--> S.solve           = 219.0038 seconds
+***       |--> S.split           = 0.323683 seconds
+***       |--> Tensor update     = 3.938635 seconds
+***              |--> create     = 0.099589 seconds
+***              |--> destroy    = 0.008529 seconds
+***              |--> disk write = 0.258854 seconds
+***              |--> disk read  = 0.145907 seconds
+***              |--> calc       = 3.425692 seconds
+***     Disk write bandwidth     = 2596.77186342705 MB/s
+***     Disk read  bandwidth     = 4526.90550932058 MB/s
+***     Minimum energy           = -39.457190127071
+***     Maximum discarded weight = 0.00254299423262109
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -39.457190127071
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.4571901270708
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.4571901270706
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.4571901270713
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -39.457190127071
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (5, 6) is -39.4571901270857
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -39.4571948496931
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (7, 8) is -39.4575558410295
+   Stats: nIt(DAVIDSON) = 28
+Energy at sites (8, 9) is -39.4690513882038
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.545346933655
+   Stats: nIt(DAVIDSON) = 32
+Energy at sites (10, 11) is -39.5022327782439
+   Stats: nIt(DAVIDSON) = 18
+Energy at sites (11, 12) is -39.4916324058456
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -39.4913989982886
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (13, 14) is -39.49139710636
+   Stats: nIt(DAVIDSON) = 5
+Energy at sites (14, 15) is -39.4913971195017
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -39.4913971195018
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.4913971195016
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.4913971195014
+******************************************************************
+***  Information on right sweep 2 of instruction 0:
+***     Elapsed wall time        = 203.519507 seconds
+***       |--> S.join            = 0.009228 seconds
+***       |--> S.solve           = 199.498602 seconds
+***       |--> S.split           = 0.338918 seconds
+***       |--> Tensor update     = 3.672388 seconds
+***              |--> create     = 0.097966 seconds
+***              |--> destroy    = 0.008975 seconds
+***              |--> disk write = 0.25973 seconds
+***              |--> disk read  = 0.148052 seconds
+***              |--> calc       = 3.157591 seconds
+***     Disk write bandwidth     = 2605.10078012767 MB/s
+***     Disk read  bandwidth     = 4540.19387739137 MB/s
+***     Minimum energy           = -39.545346933655
+***     Maximum discarded weight = 0.00303528060407243
+***     Energy difference with respect to previous leftright sweep = 0.351113885369955
+******************************************************************
+The overlap between the current state and state 0 is : -0.00176837522073009
+The overlap between the current state and state 1 is : -0.00361741124292709
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -39.4913971195012
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.4913971195014
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.4913971195015
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -39.4913971195018
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -39.4913971195016
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (13, 14) is -39.4913971195094
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -39.4914023735756
+   Stats: nIt(DAVIDSON) = 15
+Energy at sites (11, 12) is -39.4918230279537
+   Stats: nIt(DAVIDSON) = 26
+Energy at sites (10, 11) is -39.5052386652866
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.5686407957481
+   Stats: nIt(DAVIDSON) = 31
+Energy at sites (8, 9) is -39.5115621572736
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (7, 8) is -39.4992217668921
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (6, 7) is -39.4988188071262
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (5, 6) is -39.4988139446663
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (4, 5) is -39.4988139509175
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.4988139509176
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.4988139509165
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.4988139509165
+******************************************************************
+***  Information on left sweep 3 of instruction 0:
+***     Elapsed wall time        = 206.065889 seconds
+***       |--> S.join            = 0.009718 seconds
+***       |--> S.solve           = 201.647949 seconds
+***       |--> S.split           = 0.346666 seconds
+***       |--> Tensor update     = 4.0612 seconds
+***              |--> create     = 0.097502 seconds
+***              |--> destroy    = 0.009139 seconds
+***              |--> disk write = 0.259749 seconds
+***              |--> disk read  = 0.145386 seconds
+***              |--> calc       = 3.549355 seconds
+***     Disk write bandwidth     = 2616.16902081357 MB/s
+***     Disk read  bandwidth     = 4653.97511192659 MB/s
+***     Minimum energy           = -39.5686407957481
+***     Maximum discarded weight = 0.00303888921435539
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -39.4988139509163
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.4988139509167
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.4988139509165
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.4988139509171
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -39.4988139509169
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (5, 6) is -39.498813950922
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -39.498820200536
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -39.4992699365475
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (8, 9) is -39.5121696283037
+   Stats: nIt(DAVIDSON) = 44
+Energy at sites (9, 10) is -39.5733677882748
+   Stats: nIt(DAVIDSON) = 30
+Energy at sites (10, 11) is -39.51525789084
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (11, 12) is -39.501634013622
+   Stats: nIt(DAVIDSON) = 11
+Energy at sites (12, 13) is -39.501201336492
+   Stats: nIt(DAVIDSON) = 7
+Energy at sites (13, 14) is -39.5011963307304
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (14, 15) is -39.5011963325447
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -39.501196332545
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.5011963325451
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.5011963325451
+******************************************************************
+***  Information on right sweep 3 of instruction 0:
+***     Elapsed wall time        = 206.054888 seconds
+***       |--> S.join            = 0.009799 seconds
+***       |--> S.solve           = 201.942008 seconds
+***       |--> S.split           = 0.350683 seconds
+***       |--> Tensor update     = 3.752011 seconds
+***              |--> create     = 0.097365 seconds
+***              |--> destroy    = 0.008922 seconds
+***              |--> disk write = 0.259246 seconds
+***              |--> disk read  = 0.147408 seconds
+***              |--> calc       = 3.238992 seconds
+***     Disk write bandwidth     = 2624.61878206941 MB/s
+***     Disk read  bandwidth     = 4609.97562538875 MB/s
+***     Minimum energy           = -39.5733677882748
+***     Maximum discarded weight = 0.00302741336029501
+***     Energy difference with respect to previous leftright sweep = 0.00979921304372056
+******************************************************************
+The overlap between the current state and state 0 is : -0.00176771584048215
+The overlap between the current state and state 1 is : -0.00358155104288364
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -39.5011963325451
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.5011963325452
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.5011963325451
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -39.5011963325452
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -39.5011963325447
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -39.5011963325446
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -39.5012017497095
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -39.5016489855236
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (10, 11) is -39.5154030490042
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.5741782277241
+   Stats: nIt(DAVIDSON) = 30
+Energy at sites (8, 9) is -39.5164458152107
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (7, 8) is -39.5029463090069
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -39.5024912374587
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (5, 6) is -39.502486750029
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (4, 5) is -39.5024867510798
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.50248675108
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.5024867510796
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.5024867510793
+******************************************************************
+***  Information on left sweep 4 of instruction 0:
+***     Elapsed wall time        = 203.386064 seconds
+***       |--> S.join            = 0.009706 seconds
+***       |--> S.solve           = 198.957974 seconds
+***       |--> S.split           = 0.348749 seconds
+***       |--> Tensor update     = 4.069263 seconds
+***              |--> create     = 0.097726 seconds
+***              |--> destroy    = 0.009373 seconds
+***              |--> disk write = 0.260326 seconds
+***              |--> disk read  = 0.147898 seconds
+***              |--> calc       = 3.553864 seconds
+***     Disk write bandwidth     = 2611.76129323373 MB/s
+***     Disk read  bandwidth     = 4600.61610553467 MB/s
+***     Minimum energy           = -39.5741782277241
+***     Maximum discarded weight = 0.00299095529825871
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -39.5024867510795
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.5024867510796
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.5024867510798
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.5024867510796
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -39.5024867510795
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -39.5024867510793
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -39.5024914143038
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -39.5029525300271
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (8, 9) is -39.5165457536694
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.5749684650549
+   Stats: nIt(DAVIDSON) = 30
+Energy at sites (10, 11) is -39.518251088519
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (11, 12) is -39.5042789871792
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (12, 13) is -39.503843464186
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (13, 14) is -39.5038391674846
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (14, 15) is -39.5038391714926
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (15, 16) is -39.5038391714958
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.5038391714959
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.503839171496
+******************************************************************
+***  Information on right sweep 4 of instruction 0:
+***     Elapsed wall time        = 201.900659 seconds
+***       |--> S.join            = 0.00989 seconds
+***       |--> S.solve           = 197.786802 seconds
+***       |--> S.split           = 0.349108 seconds
+***       |--> Tensor update     = 3.754509 seconds
+***              |--> create     = 0.097466 seconds
+***              |--> destroy    = 0.00905 seconds
+***              |--> disk write = 0.25999 seconds
+***              |--> disk read  = 0.147467 seconds
+***              |--> calc       = 3.240466 seconds
+***     Disk write bandwidth     = 2615.32272796062 MB/s
+***     Disk read  bandwidth     = 4610.58657477512 MB/s
+***     Minimum energy           = -39.5749684650549
+***     Maximum discarded weight = 0.00298730730937823
+***     Energy difference with respect to previous leftright sweep = 0.00264283895091921
+******************************************************************
+The overlap between the current state and state 0 is : -0.00181669123582318
+The overlap between the current state and state 1 is : -0.00361971189623447
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -39.503839171496
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.503839171496
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.503839171496
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -39.5038391714954
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -39.5038391714958
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (13, 14) is -39.5038391714985
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -39.5038436830293
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -39.5042850939585
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (10, 11) is -39.5183380514057
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.5761710557578
+   Stats: nIt(DAVIDSON) = 30
+Energy at sites (8, 9) is -39.5194226362878
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (7, 8) is -39.5054541390608
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -39.505025582221
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (5, 6) is -39.5050215301774
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (4, 5) is -39.5050215336879
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (3, 4) is -39.5050215336956
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.5050215336959
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.5050215336959
+******************************************************************
+***  Information on left sweep 5 of instruction 0:
+***     Elapsed wall time        = 203.016374 seconds
+***       |--> S.join            = 0.009852 seconds
+***       |--> S.solve           = 198.570563 seconds
+***       |--> S.split           = 0.34866 seconds
+***       |--> Tensor update     = 4.08691 seconds
+***              |--> create     = 0.097558 seconds
+***              |--> destroy    = 0.009458 seconds
+***              |--> disk write = 0.26006 seconds
+***              |--> disk read  = 0.146675 seconds
+***              |--> calc       = 3.57309 seconds
+***     Disk write bandwidth     = 2617.31935832754 MB/s
+***     Disk read  bandwidth     = 4635.81221095947 MB/s
+***     Minimum energy           = -39.5761710557578
+***     Maximum discarded weight = 0.0029922809212684
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -39.5050215336954
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.5050215336961
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.5050215336958
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.5050215336959
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -39.5050215336952
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (5, 6) is -39.5050215336981
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -39.5050257971383
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -39.5054591067035
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (8, 9) is -39.5194429910896
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.5774081821619
+   Stats: nIt(DAVIDSON) = 30
+Energy at sites (10, 11) is -39.5198089177507
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (11, 12) is -39.5057582168511
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (12, 13) is -39.5053373517317
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (13, 14) is -39.505333639076
+   Stats: nIt(DAVIDSON) = 4
+Energy at sites (14, 15) is -39.5053336399935
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (15, 16) is -39.5053336399964
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.5053336399964
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.5053336399963
+******************************************************************
+***  Information on right sweep 5 of instruction 0:
+***     Elapsed wall time        = 203.809234 seconds
+***       |--> S.join            = 0.009918 seconds
+***       |--> S.solve           = 199.661082 seconds
+***       |--> S.split           = 0.35387 seconds
+***       |--> Tensor update     = 3.783993 seconds
+***              |--> create     = 0.097395 seconds
+***              |--> destroy    = 0.009154 seconds
+***              |--> disk write = 0.259705 seconds
+***              |--> disk read  = 0.14714 seconds
+***              |--> calc       = 3.270527 seconds
+***     Disk write bandwidth     = 2621.66069505056 MB/s
+***     Disk read  bandwidth     = 4625.9349757147 MB/s
+***     Minimum energy           = -39.5774081821619
+***     Maximum discarded weight = 0.00300843453873343
+***     Energy difference with respect to previous leftright sweep = 0.0014944685002547
+******************************************************************
+The overlap between the current state and state 0 is : 0.0018648208462307
+The overlap between the current state and state 1 is : 0.003699806356863
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -39.5053336399963
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.5053336399966
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.5053336399963
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -39.5053336399968
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -39.5053336399967
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -39.5053336399964
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -39.5053374367574
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -39.5057607077196
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (10, 11) is -39.519790044174
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.5776719235579
+   Stats: nIt(DAVIDSON) = 30
+Energy at sites (8, 9) is -39.5198604091638
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (7, 8) is -39.505944247295
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -39.5055187081365
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (5, 6) is -39.5055145432701
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (4, 5) is -39.5055145435974
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (3, 4) is -39.5055145435992
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.5055145435998
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.5055145435995
+******************************************************************
+***  Information on left sweep 6 of instruction 0:
+***     Elapsed wall time        = 204.546564 seconds
+***       |--> S.join            = 0.00992400000000005 seconds
+***       |--> S.solve           = 200.084204 seconds
+***       |--> S.split           = 0.354394 seconds
+***       |--> Tensor update     = 4.097659 seconds
+***              |--> create     = 0.097453 seconds
+***              |--> destroy    = 0.009303 seconds
+***              |--> disk write = 0.259234 seconds
+***              |--> disk read  = 0.147193 seconds
+***              |--> calc       = 3.584397 seconds
+***     Disk write bandwidth     = 2626.66382640215 MB/s
+***     Disk read  bandwidth     = 4625.61664486834 MB/s
+***     Minimum energy           = -39.5776719235579
+***     Maximum discarded weight = 0.00300654335177574
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -39.5055145435998
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.5055145435995
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.5055145435999
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.5055145436002
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -39.5055145435996
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -39.505514543599
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -39.5055187554872
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -39.5059457611836
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (8, 9) is -39.5198448694439
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.5777056033047
+   Stats: nIt(DAVIDSON) = 30
+Energy at sites (10, 11) is -39.5197672499115
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (11, 12) is -39.5059315770039
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (12, 13) is -39.5055086157073
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (13, 14) is -39.5055049043041
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -39.5055049046346
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (15, 16) is -39.5055049046371
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.505504904636
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.5055049046365
+******************************************************************
+***  Information on right sweep 6 of instruction 0:
+***     Elapsed wall time        = 203.951254 seconds
+***       |--> S.join            = 0.009908 seconds
+***       |--> S.solve           = 199.803613 seconds
+***       |--> S.split           = 0.352205 seconds
+***       |--> Tensor update     = 3.785156 seconds
+***              |--> create     = 0.097324 seconds
+***              |--> destroy    = 0.009473 seconds
+***              |--> disk write = 0.259896 seconds
+***              |--> disk read  = 0.147845 seconds
+***              |--> calc       = 3.270543 seconds
+***     Disk write bandwidth     = 2620.23367320937 MB/s
+***     Disk read  bandwidth     = 4605.63813705932 MB/s
+***     Minimum energy           = -39.5777056033047
+***     Maximum discarded weight = 0.00300496412516028
+***     Energy difference with respect to previous leftright sweep = 0.000171264640243862
+******************************************************************
+The overlap between the current state and state 0 is : -0.00188658457383161
+The overlap between the current state and state 1 is : -0.00372659885621467
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -39.5055049046364
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.5055049046363
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.5055049046362
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -39.5055049046364
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -39.5055049046364
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -39.505504904636
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -39.5055086585904
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -39.5059324714055
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (10, 11) is -39.5197593518377
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.5777272465549
+   Stats: nIt(DAVIDSON) = 30
+Energy at sites (8, 9) is -39.5198131094916
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (7, 8) is -39.5060341026727
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -39.5056063230858
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (5, 6) is -39.505602174822
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (4, 5) is -39.5056021749875
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.5056021749873
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.5056021749872
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.5056021749873
+******************************************************************
+***  Information on left sweep 7 of instruction 0:
+***     Elapsed wall time        = 204.39598 seconds
+***       |--> S.join            = 0.009917 seconds
+***       |--> S.solve           = 199.935141 seconds
+***       |--> S.split           = 0.350972 seconds
+***       |--> Tensor update     = 4.099562 seconds
+***              |--> create     = 0.097324 seconds
+***              |--> destroy    = 0.009198 seconds
+***              |--> disk write = 0.259182 seconds
+***              |--> disk read  = 0.147313 seconds
+***              |--> calc       = 3.586484 seconds
+***     Disk write bandwidth     = 2627.45194779121 MB/s
+***     Disk read  bandwidth     = 4622.73017814057 MB/s
+***     Minimum energy           = -39.5777272465549
+***     Maximum discarded weight = 0.00300269178015837
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -39.5056021749871
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.5056021749875
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.505602174987
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.5056021749875
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -39.5056021749873
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -39.5056021749874
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -39.505606365356
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -39.5060350468248
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (8, 9) is -39.5198119948193
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.5777500459561
+   Stats: nIt(DAVIDSON) = 30
+Energy at sites (10, 11) is -39.5199192340758
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (11, 12) is -39.5060977395722
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (12, 13) is -39.50567373256
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (13, 14) is -39.5056700112326
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -39.505670011358
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -39.5056700113581
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.5056700113578
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.505670011358
+******************************************************************
+***  Information on right sweep 7 of instruction 0:
+***     Elapsed wall time        = 203.79916 seconds
+***       |--> S.join            = 0.010427 seconds
+***       |--> S.solve           = 199.667249 seconds
+***       |--> S.split           = 0.351454 seconds
+***       |--> Tensor update     = 3.769651 seconds
+***              |--> create     = 0.097619 seconds
+***              |--> destroy    = 0.009119 seconds
+***              |--> disk write = 0.259169 seconds
+***              |--> disk read  = 0.147597 seconds
+***              |--> calc       = 3.256078 seconds
+***     Disk write bandwidth     = 2627.58374162196 MB/s
+***     Disk read  bandwidth     = 4613.83531326803 MB/s
+***     Minimum energy           = -39.5777500459561
+***     Maximum discarded weight = 0.00300116434495849
+***     Energy difference with respect to previous leftright sweep = 0.00016510672151071
+******************************************************************
+The overlap between the current state and state 0 is : -0.00190211905061888
+The overlap between the current state and state 1 is : -0.00375326701051153
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -39.5056700113581
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.505670011358
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.5056700113581
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -39.5056700113577
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -39.5056700113578
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -39.5056700113578
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -39.5056737581036
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -39.5060981785044
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (10, 11) is -39.5199097931099
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.5777848952248
+   Stats: nIt(DAVIDSON) = 30
+Energy at sites (8, 9) is -39.5199360841805
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (7, 8) is -39.5061645787564
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -39.5057366054917
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (5, 6) is -39.505732634524
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (4, 5) is -39.5057326346105
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.5057326346101
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.5057326346106
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.5057326346107
+******************************************************************
+***  Information on left sweep 8 of instruction 0:
+***     Elapsed wall time        = 204.434295 seconds
+***       |--> S.join            = 0.009865 seconds
+***       |--> S.solve           = 199.990288 seconds
+***       |--> S.split           = 0.350535 seconds
+***       |--> Tensor update     = 4.08322 seconds
+***              |--> create     = 0.09764 seconds
+***              |--> destroy    = 0.009632 seconds
+***              |--> disk write = 0.260567 seconds
+***              |--> disk read  = 0.14719 seconds
+***              |--> calc       = 3.568126 seconds
+***     Disk write bandwidth     = 2613.30551208773 MB/s
+***     Disk read  bandwidth     = 4626.59318386047 MB/s
+***     Minimum energy           = -39.5777848952248
+***     Maximum discarded weight = 0.00300126620074088
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -39.5057326346105
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.5057326346108
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.5057326346104
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.5057326346104
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -39.5057326346108
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -39.5057326346105
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -39.5057366472977
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -39.5061655977689
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (8, 9) is -39.5199355283851
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.5778333469551
+   Stats: nIt(DAVIDSON) = 30
+Energy at sites (10, 11) is -39.5200278869607
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (11, 12) is -39.506214092264
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (12, 13) is -39.5057902202983
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (13, 14) is -39.5057864838276
+   Stats: nIt(DAVIDSON) = 3
+Energy at sites (14, 15) is -39.505786483904
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (15, 16) is -39.5057864839072
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.5057864839069
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.5057864839079
+******************************************************************
+***  Information on right sweep 8 of instruction 0:
+***     Elapsed wall time        = 203.775951 seconds
+***       |--> S.join            = 0.00969 seconds
+***       |--> S.solve           = 199.711355 seconds
+***       |--> S.split           = 0.352161 seconds
+***       |--> Tensor update     = 3.702362 seconds
+***              |--> create     = 0.09841 seconds
+***              |--> destroy    = 0.009445 seconds
+***              |--> disk write = 0.263295 seconds
+***              |--> disk read  = 0.151979 seconds
+***              |--> calc       = 3.179159 seconds
+***     Disk write bandwidth     = 2586.22904866467 MB/s
+***     Disk read  bandwidth     = 4480.49518267764 MB/s
+***     Minimum energy           = -39.5778333469551
+***     Maximum discarded weight = 0.00300142397341576
+***     Energy difference with respect to previous leftright sweep = 0.000116472549848368
+******************************************************************
+The overlap between the current state and state 0 is : 0.00191237559794972
+The overlap between the current state and state 1 is : 0.00376996707043898
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (18, 19) is -39.5057864839079
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.5057864839075
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.5057864839069
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (15, 16) is -39.5057864839072
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (14, 15) is -39.5057864839072
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (13, 14) is -39.5057864839069
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (12, 13) is -39.50579023723
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (11, 12) is -39.5062143569098
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (10, 11) is -39.5200194204397
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.5778626557737
+   Stats: nIt(DAVIDSON) = 30
+Energy at sites (8, 9) is -39.520030574505
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (7, 8) is -39.5062640251789
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (6, 7) is -39.5058367496339
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (5, 6) is -39.5058327660613
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (4, 5) is -39.505832766123
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (3, 4) is -39.5058327661264
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.5058327661262
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.5058327661267
+******************************************************************
+***  Information on left sweep 9 of instruction 0:
+***     Elapsed wall time        = 204.304529 seconds
+***       |--> S.join            = 0.009593 seconds
+***       |--> S.solve           = 199.908365 seconds
+***       |--> S.split           = 0.352804 seconds
+***       |--> Tensor update     = 4.033395 seconds
+***              |--> create     = 0.098246 seconds
+***              |--> destroy    = 0.009219 seconds
+***              |--> disk write = 0.26376 seconds
+***              |--> disk read  = 0.150748 seconds
+***              |--> calc       = 3.511348 seconds
+***     Disk write bandwidth     = 2581.66961392237 MB/s
+***     Disk read  bandwidth     = 4517.08266357208 MB/s
+***     Minimum energy           = -39.5778626557737
+***     Maximum discarded weight = 0.00300201783379246
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (0, 1) is -39.5058327661258
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (1, 2) is -39.5058327661264
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (2, 3) is -39.5058327661263
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (3, 4) is -39.5058327661263
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (4, 5) is -39.5058327661262
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (5, 6) is -39.5058327661261
+   Stats: nIt(DAVIDSON) = 8
+Energy at sites (6, 7) is -39.5058367851287
+   Stats: nIt(DAVIDSON) = 14
+Energy at sites (7, 8) is -39.5062645891173
+   Stats: nIt(DAVIDSON) = 25
+Energy at sites (8, 9) is -39.5200287892875
+   Stats: nIt(DAVIDSON) = 43
+Energy at sites (9, 10) is -39.5779043165342
+   Stats: nIt(DAVIDSON) = 30
+Energy at sites (10, 11) is -39.5201024471129
+   Stats: nIt(DAVIDSON) = 17
+Energy at sites (11, 12) is -39.5062961633815
+   Stats: nIt(DAVIDSON) = 10
+Energy at sites (12, 13) is -39.5058726267167
+   Stats: nIt(DAVIDSON) = 6
+Energy at sites (13, 14) is -39.5058688750925
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (14, 15) is -39.5058688751378
+   Stats: nIt(DAVIDSON) = 2
+Energy at sites (15, 16) is -39.5058688751394
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (16, 17) is -39.5058688751394
+   Stats: nIt(DAVIDSON) = 1
+Energy at sites (17, 18) is -39.5058688751392
+******************************************************************
+***  Information on right sweep 9 of instruction 0:
+***     Elapsed wall time        = 203.714791 seconds
+***       |--> S.join            = 0.009663 seconds
+***       |--> S.solve           = 199.616683 seconds
+***       |--> S.split           = 0.353847 seconds
+***       |--> Tensor update     = 3.734198 seconds
+***              |--> create     = 0.098365 seconds
+***              |--> destroy    = 0.009419 seconds
+***              |--> disk write = 0.264197 seconds
+***              |--> disk read  = 0.15156 seconds
+***              |--> calc       = 3.21059 seconds
+***     Disk write bandwidth     = 2577.39935490624 MB/s
+***     Disk read  bandwidth     = 4492.88187759411 MB/s
+***     Minimum energy           = -39.5779043165342
+***     Maximum discarded weight = 0.00300239134766614
+***     Energy difference with respect to previous leftright sweep = 8.23912313308028e-05
+******************************************************************
+The overlap between the current state and state 0 is : -0.00191951861079798
+The overlap between the current state and state 1 is : -0.00378082267508644
+***  Information on completed instruction 0:
+***     The reduced virtual dimension DSU(2)               = 500
+***     Minimum energy encountered during all instructions = -39.5779043165342
+***     Minimum energy encountered during the last sweep   = -39.5779043165342
+***     Maximum discarded weight during the last sweep     = 0.00300239134766614
+******************************************************************
+   Stats: nIt(DAVIDSON) = 1
+********************************************
+***  2-RDM and Correlations calculation  ***
+********************************************
+   N(N-1)                     = 380
+   Double trace of DMRG 2-RDM = 380.000000000001
+   Energy obtained by Heff at edge   = -39.50586887514
+   Econst + 0.5 * trace(2DM-A * Ham) = -39.5062284585811
+   NOON of irrep Ag = [ 1.97647697581962 , 1.9686460172759 , 1.94600983485867 , 1.7562855097292 , 1.50789309980392 , 0.711039361856889 , 0.246898358823364 , 0.0713436750253221 , 0.0393655598253842 , 0.0273432510005445 ].
+   NOON of irrep Au = [ 1.97281122259574 , 1.96082677467593 , 1.92904850504062 , 1.75318041274355 , 1.28518852390125 , 0.493368367124052 , 0.244810996632241 , 0.054171141695683 , 0.0315402914957984 , 0.0237521200763539 ].
+   Single-orbital entropies (Hamiltonian index order is used!) = [ 0.128946473928796 , 0.146672778679786 , 0.16680538119563 , 0.213548129235034 , 0.279008119064507 , 0.338922752129778 , 0.75169381481335 , 0.769148391492742 , 1.12583959161804 , 1.3081145226097 , 1.30600703110981 , 1.12697031636029 , 0.769130992985423 , 0.753656693461537 , 0.340082306550379 , 0.280002956283764 , 0.214601683236929 , 0.167781368556251 , 0.147409783133336 , 0.129888935971801 ].
+   Idistance(0) = 2.42754106185681
+   Idistance(1) = 9.01975209030223
+   Idistance(2) = 59.6293131479284
+***************************************************
+***  Timing information 2-RDM and Correlations  ***
+***************************************************
+***     Elapsed wall time        = 16.879331 seconds
+***       |--> MPS gauge change  = 0.058363 seconds
+***       |--> Diagram calc      = 7.471831 seconds
+***       |--> Tensor update     = 9.340628 seconds
+***              |--> create     = 0.201041 seconds
+***              |--> destroy    = 0.020368 seconds
+***              |--> disk write = 0.528835 seconds
+***              |--> disk read  = 0.301675 seconds
+***              |--> calc       = 8.288297 seconds
+***     Disk write bandwidth     = 2575.51283819549 MB/s
+***     Disk read  bandwidth     = 4514.86312020257 MB/s
+***************************************************

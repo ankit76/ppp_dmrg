@@ -1,0 +1,168 @@
+ ************************************************************************
+ * RTSIM - DAVIDSON METHOD SPARSE MATRIX EIGENVALUE/EIGENVECTOR PROGRAM *
+ * QUANTUM CHEMISTRY GROUP - INDIANA UNIVERSITY - 13Aug 2013  12:08:21  *
+ ************************************************************************
+
+
+
+                 DIAGONALIZATION RUN TITLE
+                 -------------------------
+ )* WATER TEST *
+
+
+
+ ) DAVIDSON
+ ) LAST=2
+ ) COEFF
+ ) NOVLP
+ ) MAXITR=1000 END
+
+ THE CI MATRIX IS TITLED:  H2O  -SINGLET A1-  STO-3G HF SD-CI TEST
+ THE MATRIX IS DATED:     13Aug 2013  12:07:27 
+ THE SPIN MULTIPLICITY IS 3 AND THE DIMENSION IS    133.
+
+ ROOTS  1 THROUGH  2 WILL BE OBTAINED.
+
+  
+  
+  
+ AMOUNT OF CORE AVAILABLE                      80000000
+ MAXIMUM NUMBER OF VECTORS PER ITERATION              2
+ MAXIMUM NUMBER OF VECTORS ON DISK                   16
+ NUMBER OF SOLUTIONS SOUGHT                           2
+ NUMBER OF SOLUTIONS INVESTIGATED                     2
+ SIZE OF MATRIX DIAGONALISED                        133
+  
+  
+ INITIAL GUESS AT ROOTS (OBTAINED FROM DIAGONAL ELEMENTS OF HAMILTONIAN MATRIX)
+
+                1        -433.49260
+               14        -431.66216
+
+
+ ITERATION       ROOT           EIGENVALUE          NORM OF RESIDUAL
+     1             1          -433.49259841              2.07525
+     1             2          -431.66215710              1.57477
+     2             1          -434.10344822              2.09403
+     2             2          -431.76644947              6.51193
+     2             1          -434.10344822              0.64895
+     2             2          -431.76644947              1.89449
+     3             1          -434.14563161              0.65709
+     3             2          -432.23927896              2.54765
+     3             1          -434.14563161              0.10049
+     3             2          -432.23927896              0.59814
+     4             1          -434.14671010              0.12509
+     4             2          -432.29499056              1.14517
+     4             1          -434.14671010              0.01868
+     4             2          -432.29499056              0.24735
+     5             1          -434.14675195              0.03233
+     5             2          -432.30246741              0.46363
+     5             1          -434.14675195              0.00433
+     5             2          -432.30246741              0.05645
+     6             1          -434.14675423              0.00890
+     6             2          -432.30291264              0.13841
+     6             1          -434.14675423              0.00091
+     6             2          -432.30291264              0.01714
+     7             1          -434.14675433              0.00176
+     7             2          -432.30294762              0.03509
+     7             1          -434.14675433              0.00021
+     7             2          -432.30294762              0.00403
+     8             1          -434.14675433              0.00041
+     8             2          -432.30294970              0.00898
+  truncating with vlp=false 
+ TRUNCATION TO 1 VECTOR PER ROOT HAS BEEN PERFORMED
+     8             1          -434.14675433              0.00007
+     8             2          -432.30294970              0.00132
+     ROOT    ITERATION     NUMBER OF PRODUCTS       EIGENVALUE
+       1         8                14                -434.1467543323
+
+
+     9             2          -432.30294990              0.00154
+     9             2          -432.30294990              0.00044
+    10             2          -432.30294993              0.00076
+    10             2          -432.30294993              0.00012
+    11             2          -432.30294994              0.00020
+    11             2          -432.30294994              0.00003
+     ROOT    ITERATION     NUMBER OF PRODUCTS       EIGENVALUE
+       2        11                17                -432.3029499357
+
+
+  all roots converged 
+  
+
+ ************************************
+ COMPLETED CI VECTOR OPTIMISATION
+ ************************************
+
+
+
+
+
+ ********************************
+ RESULTS FOR ROOT   01
+ TOTAL CI ENERGY =   -434.1467543
+ ********************************
+
+       CONF.                                                                           COEFF.
+        NO.        SPACE ORBITAL PRODUCTS                                             CONTRIB.      CI COEFFICIENTS
+
+       -----       ----------------------                                             --------   ---------------------
+   1.     1   D 1 - 6 S 7 - 8  END                                                      0.9469   -0.94695
+   2.    17   D 1 - 6 S 7 S 12  END                                                     0.1316    0.13156
+   3.     8   D 1 - 2 S 3 D 4 - 7 S 8  END                                              0.1316    0.13155
+   4.    32   D 1 - 4 S 5 D 6 S 7 - 9  END                                              0.1038   -0.09629 -0.03483  0.01716
+   5.    27   D 1 - 5 S 6 - 8 S 10  END                                                 0.1038    0.03450  0.07852  0.05851
+   6.    22   D 1 - 6 S 8 S 11  END                                                     0.0967    0.09665
+   7.     7   D 1 - 3 S 4 D 5 - 6 S 7 D 8  END                                          0.0967   -0.09665
+   8.    46   D 1 - 2 S 3 D 4 - 6 S 7 - 8 S 11  END                                     0.0711    0.05803  0.01223 -0.03926
+   9.    41   D 1 - 3 S 4 D 5 - 6 S 7 - 8 S 12  END                                     0.0711   -0.00694  0.05817  0.04032
+  10.    49   D 1 - 2 S 3 D 4 - 6 S 7 - 8 S 14  END                                     0.0693    0.03903 -0.02516 -0.05139
+  11.    59   S 1 D 2 - 6 S 7 - 8 S 12  END                                             0.0693    0.04081 -0.03129 -0.04640
+  12.    13   S 1 D 2 - 6 S 7 D 8  END                                                  0.0479    0.04786
+  13.    25   D 1 - 6 S 8 S 14  END                                                     0.0479    0.04785
+  14.    51   D 1 S 2 D 3 - 6 S 7 - 8 S 10  END                                         0.0455   -0.02892  0.01353  0.03244
+  15.    36   D 1 - 4 S 5 D 6 S 7 - 8 S 13  END                                         0.0455   -0.02322  0.02334  0.03143
+
+
+
+
+ POSITION OF FIRST SPIN COUPLING FOR TEN MOST IMPORTANT CONFIGURATIONS
+       1     17      8     44     29     22      7     86     71     95
+
+
+
+ ********************************
+ RESULTS FOR ROOT   02
+ TOTAL CI ENERGY =   -432.3029499
+ ********************************
+
+       CONF.                                                                           COEFF.
+        NO.        SPACE ORBITAL PRODUCTS                                             CONTRIB.      CI COEFFICIENTS
+
+       -----       ----------------------                                             --------   ---------------------
+   1.    14   D 1 - 6 S 7 S 9  END                                                      0.6739    0.67392
+   2.     2   D 1 - 5 S 6 D 7 S 8  END                                                  0.6739   -0.67392
+   3.    38   D 1 - 3 S 4 D 5 - 6 S 7 - 9  END                                          0.1689    0.11545  0.02072 -0.12148
+   4.    28   D 1 - 5 S 6 - 8 S 11  END                                                 0.1689    0.05094 -0.13837 -0.08230
+   5.    21   D 1 - 6 S 8 S 10  END                                                     0.0816    0.08161
+   6.     5   D 1 - 4 S 5 D 6 S 7 D 8  END                                              0.0816   -0.08161
+   7.    52   D 1 S 2 D 3 - 6 S 7 - 8 S 11  END                                         0.0664   -0.05414 -0.00603  0.03788
+   8.    42   D 1 - 3 S 4 D 5 - 6 S 7 - 8 S 13  END                                     0.0664   -0.01004  0.05141  0.04072
+   9.    55   D 1 S 2 D 3 - 6 S 7 - 8 S 14  END                                         0.0461    0.01462 -0.03124 -0.03062
+  10.    60   S 1 D 2 - 6 S 7 - 8 S 13  END                                             0.0461   -0.03485  0.00375  0.02997
+  11.    45   D 1 - 2 S 3 D 4 - 6 S 7 - 8 S 10  END                                     0.0457   -0.03763  0.00925  0.02424
+  12.    35   D 1 - 4 S 5 D 6 S 7 - 8 S 12  END                                         0.0457    0.01162 -0.02556 -0.03606
+  13.    18   D 1 - 6 S 7 S 13  END                                                     0.0362    0.03622
+  14.    10   D 1 S 2 D 3 - 7 S 8  END                                                  0.0362   -0.03622
+  15.    31   D 1 - 5 S 6 - 8 S 14  END                                                 0.0269    0.00904 -0.02526 -0.00208
+  16.    56   S 1 D 2 - 6 S 7 - 9  END                                                  0.0269   -0.01060 -0.01138  0.02197
+
+
+
+
+ POSITION OF FIRST SPIN COUPLING FOR TEN MOST IMPORTANT CONFIGURATIONS
+      14      2     62     32     21      5    104     74    113    128
+
+
+
+ ELAPSED TIME =       0.00 CPU SECONDS. (      0.00 WALL CLOCK SECONDS)

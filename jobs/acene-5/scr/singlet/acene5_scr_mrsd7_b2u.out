@@ -1,0 +1,126 @@
+ ************************************************************************
+ * CISTAR - CONFIGURATION INTERACTION/PERTURBATION THEORY PROGRAM       *
+ * QUANTUM CHEMISTRY GROUP - INDIANA UNIVERSITY - 11Jul 2016  04:16:41  *
+ ************************************************************************
+
+
+
+ THE TRANSFORMED INTEGRALS ARE TITLED: dumm                                    
+ THE FILE IS DATED:                      4Jul 2016  22:11:17 
+ THE NUMBER OF ORBITALS FROM FILE 16 IS  22.
+
+
+                         CI RUN TITLE
+                         -- --- -----
+ )* H2O  -SINGLET A1-  STO-3G HF SD-CI TEST CASE *
+
+
+ ) $
+ ) $ GENERAL OPTIONS LIST INPUT
+ ) $
+ )MRSDCI=61      $ REQUEST UP TO SD EXCITATIONS FROM THESE CONFIGURATIONs
+ )ISYMMETRY=3     $ SPECIFY Ag OVERALL SYMMETRY
+ )MULTIPLICITY=1  $ SPECIFY SPIN MULTIPLICITY
+ )END
+ TIME TO PROCESS FORMULA FILE = 0.0 CPU SEC. ( 0.0 WALL CLOCK SEC.)
+
+            THE REFERENCE SPACE CONFIGURATIONS
+            --- --------- ----- --------------
+ ) $
+ ) $ SPECIFY THE HARTREE-FOCK CONFIGURATION
+ ) $
+ ) D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2  END
+ ) D 1 - 4 ; D 1 - 3 S 4 ; D 1 - 2 ; D 1 S 2  END
+ ) D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3  END
+ ) D 1 - 3 S 4 ; D 1 - 3 S 4 - 5 ; D 1 - 2 S 3 ; S 1 - 2  END
+ ) D 1 - 3 S 4 ; D 1 - 4 ; D 1 - 2 S 3 ; D 1  END
+ ) D 1 - 3 S 4 - 5 ; D 1 - 3 S 4 ; D 1 S 2 - 3 ; D 1 S 2  END
+ ) D 1 - 3 ; D 1 - 3 S 4 ; D 1 - 2 ; D 1 - 2 S 4  END
+ ) D 1 - 4 ; D 1 S 2 D 3 ; D 1 - 3 ; D 1 S 2  END
+ ) D 1 - 3 S 6 ; D 1 - 3 ; S 1 D 2 - 3 ; D 1 - 2  END
+ ) D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 4 ; D 1 - 2  END
+ ) D 1 - 2 S 3 D 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2  END
+ ) D 1 - 3 S 4 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 S 2 - 3  END
+ ) D 1 - 3 ; D 1 - 3 S 4 ; D 1 - 3 ; D 1 S 2  END
+ ) D 1 - 3 S 5 ; D 1 - 3 ; D 1 S 2 D 3 ; D 1 - 2  END
+ ) D 1 - 3 S 4 ; D 1 S 2 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 3 - 4  END
+ ) D 1 - 3 S 4 ; D 1 - 2 ; D 1 - 2 S 3 ; D 1 - 3  END
+ ) D 1 - 4 S 5 ; D 1 - 3 ; D 1 S 2 ; D 1 - 2  END
+ ) D 1 - 3 S 4 ; D 1 S 2 D 3 S 4 ; D 1 - 2 S 3 ; D 1 S 2 S 4  END
+ ) D 1 - 4 S 6 ; D 1 - 3 ; S 1 D 2 ; D 1 - 2  END
+ ) D 1 - 2 S 3 - 4 ; D 1 - 3 S 4 ; D 1 - 2 S 3 - 4 ; D 1 S 2  END
+ ) S 1 D 2 - 4 ; D 1 - 3 ; S 1 D 2 - 3 ; D 1 - 2  END
+ ) D 1 - 3 S 6 ; D 1 - 3 ; D 1 - 2 S 6 ; D 1 - 2  END
+ ) D 1 - 3 ; D 1 - 3 S 5 ; D 1 - 3 ; S 1 D 2  END
+ ) D 1 - 3 ; D 1 - 3 S 4 ; D 1 - 2 ; D 1 - 2 S 3  END
+ ) D 1 - 4 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 S 2  END
+ ) D 1 - 3 S 5 ; D 1 - 3 ; D 1 - 2 S 4 ; D 1 - 2  END
+ ) D 1 - 2 S 3 D 4 ; D 1 - 3 ; D 1 S 2 D 3 ; D 1 - 2  END
+ ) D 1 - 3 S 4 D 5 ; D 1 - 3 ; D 1 S 3 ; D 1 - 2  END
+ ) D 1 - 3 S 4 S 6 ; D 1 - 3 S 4 ; S 1 D 2 S 3 ; D 1 S 2  END
+ ) D 1 - 3 S 4 - 5 ; D 1 - 2 S 3 ; D 1 S 2 - 3 ; D 1 - 2 S 3  END
+ ) D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2 - 3  END
+ ) D 1 - 3 S 4 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 - 2  END
+ ) D 1 - 3 S 4 ; D 1 - 3 S 4 - 5 ; S 1 D 2 ; D 1 - 2  END
+ ) D 1 - 4 S 6 ; D 1 - 3 ; D 1 - 2 S 3 ; S 1 - 2  END
+ ) D 1 - 3 S 4 - 5 ; D 1 - 3 S 5 ; D 1 S 2 - 3 ; S 1 D 2  END
+ ) D 1 S 2 D 3 - 4 ; D 1 - 3 ; D 1 S 2 D 3 ; D 1 - 2  END
+ ) D 1 - 3 S 5 ; D 1 - 3 ; D 1 - 2 S 5 ; D 1 - 2  END
+ ) D 1 - 2 S 3 - 4 ; D 1 S 2 D 3 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 4  END
+ ) D 1 - 3 S 4 - 5 ; D 1 - 3 S 4 ; D 1 S 2 - 3 ; S 1 D 2  END
+ ) D 1 - 3 S 4 - 5 ; D 1 - 3 S 5 ; D 1 S 2 - 3 ; D 1 S 2  END
+ ) D 1 S 2 D 3 S 4 ; D 1 - 2 S 3 ; D 1 - 2 S 3 S 5 ; D 1 - 2 S 3  END
+ ) D 1 - 4 ; D 1 - 3 S 5 ; S 1 D 2 S 3 ; D 1 S 2  END
+ ) D 1 - 3 S 4 S 6 ; D 1 - 3 S 4 ; D 1 - 2 ; S 1 D 2  END
+ ) D 1 - 2 S 4 ; D 1 - 3 ; D 1 - 2 S 3 D 4 ; D 1 - 2  END
+ ) D 1 - 3 S 4 ; D 1 - 2 S 3 - 4 ; D 1 S 2 D 3 ; D 1 - 2  END
+ ) D 1 - 3 S 5 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2 - 3  END
+ ) D 1 S 2 D 3 S 4 - 5 ; D 1 - 3 ; D 1 S 2 - 3 S 5 ; D 1 - 2  END
+ ) D 1 - 3 S 4 ; D 1 - 2 S 3 S 5 ; D 1 - 2 S 3 ; S 1 D 2 S 3  END
+ ) D 1 - 4 ; D 1 - 3 S 4 ; D 1 S 2 - 3 ; D 1 S 2  END
+ ) D 1 - 3 S 4 - 5 ; D 1 - 3 S 4 ; D 1 - 2 ; D 1 S 2  END
+ ) D 1 - 2 S 3 - 5 ; D 1 - 3 ; D 1 S 2 - 4 ; D 1 - 2  END
+ ) D 1 - 4 ; D 1 - 3 S 5 ; D 1 - 2 ; S 1 D 2  END
+ ) D 1 - 3 S 4 - 6 ; D 1 - 3 ; S 1 - 3 ; D 1 - 2  END
+ ) D 1 - 3 S 4 ; S 1 D 2 S 3 ; D 1 - 2 S 3 ; D 1 - 2 S 3 S 5  END
+ ) D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 - 2 S 3  END
+ ) D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3  END
+ ) D 1 S 2 - 4 ; D 1 - 3 ; D 1 - 2 S 3 - 5 ; D 1 - 2  END
+ ) D 1 - 4 S 5 ; D 1 - 3 ; S 1 - 3 ; D 1 - 2  END
+ ) D 1 - 3 S 4 - 6 ; D 1 - 3 ; D 1 S 2 ; D 1 - 2  END
+ ) D 1 - 2 S 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 3  END
+ ) D 1 - 3 S 4 ; D 1 - 2 ; D 1 - 2 S 3 D 4 ; D 1 - 2  END
+
+               INTERNALLY GENERATED ORBITAL SETS (MR SD-CI TYPE 1)
+               ---------- --------- ------- ---------------------
+ MIN. MAX.
+ OCC. OCC.
+   0   4   0000110001100011100111
+  18  24   1111001110011100011000
+ THE REFERENCE SPACE CONTAINS 155 SPIN-ADAPTED CONFIGURATIONS.
+
+
+     62030 SPACE ORBITAL PRODUCTS (   362174 SPIN-ADAPTED CONFIGURATIONS)
+ WERE GENERATED IN     0.1 CPU SECONDS.
+ TIME IN DIAGC    0.0
+
+
+ THE TOTAL NUMBER OF SPACE ORBITAL PRODUCTS IS          62030
+ THE TOTAL NUMBER OF SPIN-ADAPTED CONFIGURATIONS IS    362174
+ THE MAX. NUMBER OF SPIN COUPLINGS IN A S.O.P. IS   14
+ THERE WILL BE         2 INTEGRAL LOADS UTILIZING  79995967 WORDS OF MEMORY.
+ writ50, first, nrec= T       15872
+ A TOTAL OF  9953053 NONZERO S.O.P. PAIRS WERE FOUND.
+ TIME TO FIND (I,J) PAIRS =    7.57 CPU SECONDS.
+ THE VALUE OF THE H(1,1) ELEMENT IS  -338.0974869
+
+          HAMILTONIAN MATRIX STORAGE DATA
+ I/O   NO. OF    NO. OF     FILE SIZE    PERCENT NONZERO
+ FILE  RECORDS   ELEMENTS   (IN BYTES)    IN ALL BLOCKS
+  12         4     724348      5794804
+  13      1523    1444146     24374092
+  17     51334  203349198    910368156      63.0
+  18      2671   21102599    256426684
+  19      1165    9270157     93204660
+  20      1009    8051700     64580036
+ TOTAL ELAPSED TIME =    22.6 CPU SECONDS AND       22.6 WALL CLOCK SECONDS.

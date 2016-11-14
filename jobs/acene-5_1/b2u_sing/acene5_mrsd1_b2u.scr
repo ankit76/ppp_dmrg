@@ -1,0 +1,58 @@
+#!/bin/bash
+echo $HOST
+cd /home
+mkdir himanshu
+cd himanshu
+mkdir acene-cal 
+cd acene-cal
+mkdir acene-5
+cd acene-5
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/acene5.dat .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/acene5_meld.dat .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/acene5_mrsd01_b2u.dat .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/rtsim.dat .
+cp ~/progs/meld/Spin.coupl/singlets fort.9
+~/bin/ppp_f90.x <acene5.dat> acene5.out
+~/bin/p2meld.x <acene5_meld.dat> acene5_meld.out
+~/bin/sortin.x
+~/bin/cistar.x <acene5_mrsd01_b2u.dat> acene5_mrsd01_b2u.out 
+~/bin/rtsim.x <rtsim.dat> acene5_mrsd01_rt_b2u.out 
+
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file01.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file02.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file03.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file04.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file05.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file06.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file07.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file08.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file09.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file10.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file11.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file12.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file13.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file14.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file15.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/file16.inp_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_01_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_02_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_03_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_04_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_05_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_06_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_07_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_08_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_09_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_10_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_11_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_12_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_13_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_14_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_15_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr_16_b2u .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/inpcrt.x .
+cp ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/scr .
+./scr
+
+cp *.out ~/progs/ppp-f90/jobs/acene-sing-trip/acene-5/. 
+

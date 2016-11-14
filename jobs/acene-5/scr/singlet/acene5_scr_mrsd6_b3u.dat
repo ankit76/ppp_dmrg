@@ -1,0 +1,43 @@
+* h2o  -singlet a1-  sto-3g hf sd-ci test case *
+ $
+ $ general options list input
+ $
+mrsdci=32      $ request up to sd excitations from these configurations
+isymmetry=2     $ specify ag overall symmetry
+multiplicity=1  $ specify spin multiplicity
+end  
+ $
+ $ specify the hartree-fock configuration
+ $
+ D 1 - 3 S 4 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 - 2  END                   
+ D 1 - 3 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 3  END                   
+ D 1 - 2 S 3 - 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 3  END           
+ D 1 - 3 S 4 ; D 1 - 2 S 3 ; D 1 - 2 S 3 - 4 ; D 1 - 2  END           
+ D 1 - 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2  END                       
+ D 1 - 3 S 4 ; D 1 - 3 S 4 ; D 1 - 2 ; D 1 - 2  END                   
+ D 1 - 3 ; D 1 - 3 ; D 1 - 3 S 4 ; D 1 S 2  END                       
+ D 1 - 2 S 3 ; D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2  END                   
+ D 1 - 3 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 4  END                   
+ D 1 - 3 S 4 ; D 1 S 2 D 3 ; D 1 - 3 ; D 1 - 2  END                   
+ D 1 - 3 S 4 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 S 2 S 4  END               
+ D 1 - 3 ; D 1 S 2 D 3 S 4 ; D 1 - 2 S 3 ; D 1 - 2 S 3  END           
+ D 1 - 2 S 3 D 4 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 - 2  END               
+ D 1 - 3 ; D 1 - 3 ; D 1 - 2 S 4 ; D 1 - 2 S 3  END                   
+ D 1 - 3 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 - 2 S 4  END           
+ D 1 - 3 S 4 ; D 1 S 2 D 3 ; D 1 - 3 ; D 1 S 2 - 3  END               
+ D 1 - 4 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 S 2  END               
+ D 1 - 3 S 4 ; D 1 - 3 S 4 ; D 1 - 2 ; D 1 S 2 - 3  END               
+ D 1 - 3 S 4 ; D 1 S 2 - 4 ; D 1 - 3 ; D 1 - 2  END                   
+ D 1 - 3 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2 - 4  END                   
+ D 1 S 2 D 3 S 5 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 3  END           
+ D 1 - 3 S 4 ; D 1 - 2 S 3 ; D 1 S 2 D 3 S 5 ; D 1 - 2  END           
+ D 1 - 3 S 4 ; D 1 - 2 S 3 ; S 1 D 2 - 3 S 6 ; D 1 - 2  END           
+ S 1 D 2 - 3 S 6 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 3  END           
+ D 1 - 3 S 4 - 5 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2  END               
+ D 1 - 3 S 4 ; D 1 - 3 S 4 ; D 1 S 2 - 3 ; D 1 - 2  END               
+ D 1 - 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 3  END                       
+ D 1 - 3 S 4 ; D 1 - 2 S 3 D 4 ; D 1 - 2 ; D 1 - 2  END               
+ D 1 - 3 S 4 ; D 1 S 2 D 3 ; D 1 - 2 S 3 - 4 ; D 1 - 2  END           
+ D 1 - 2 S 3 - 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 4  END           
+ S 1 D 2 - 3 S 4 S 6 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 - 2  END           
+ D 1 - 3 ; D 1 - 3 ; S 1 D 2 S 3 S 6 ; D 1 - 2 S 3  END               

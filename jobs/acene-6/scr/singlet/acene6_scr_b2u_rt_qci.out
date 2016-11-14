@@ -1,0 +1,74 @@
+ ************************************************************************
+ * RTSIM - DAVIDSON METHOD SPARSE MATRIX EIGENVALUE/EIGENVECTOR PROGRAM *
+ * QUANTUM CHEMISTRY GROUP - INDIANA UNIVERSITY - 17Jun 2016  13:59:13  *
+ ************************************************************************
+
+
+
+                 DIAGONALIZATION RUN TITLE
+                 -------------------------
+ )* WATER TEST *
+
+
+
+ ) DAVIDSON
+ ) LAST=3
+ ) COEFF
+ ) NOVLP
+ ) MAXITR=1000 END
+
+ THE CI MATRIX IS TITLED:  H2O  -SINGLET A1-  STO-3G HF SD-CI TEST
+ THE MATRIX IS DATED:     17Jun 2016  12:40:25 
+ THE SPIN MULTIPLICITY IS 1 AND THE DIMENSION IS ******.
+
+ ROOTS  1 THROUGH  3 WILL BE OBTAINED.
+
+  
+  
+  
+ AMOUNT OF CORE AVAILABLE                      80000000
+ MAXIMUM NUMBER OF VECTORS PER ITERATION              3
+ MAXIMUM NUMBER OF VECTORS ON DISK                   19
+ NUMBER OF SOLUTIONS SOUGHT                           3
+ NUMBER OF SOLUTIONS INVESTIGATED                     3
+ SIZE OF MATRIX DIAGONALISED                    6434183
+  
+  
+ INITIAL GUESS AT ROOTS (OBTAINED FROM DIAGONAL ELEMENTS OF HAMILTONIAN MATRIX)
+
+                1        -432.10749
+              326        -430.48305
+                2        -430.48305
+
+
+ ITERATION       ROOT           EIGENVALUE          NORM OF RESIDUAL
+     1             1          -432.10850746              7.65208
+     1             2          -430.63958286              7.68965
+     1             3          -430.32550481              7.61885
+     2             1          -435.40124366              8.57186
+     2             2          -433.97116477              9.36413
+     2             3          -431.64241141             15.56416
+     2             1          -435.40124366              3.04241
+     2             2          -433.97116477              3.11665
+     2             3          -431.64241141              4.24858
+     3             1          -600.49918367            932.22151
+     3             2          -504.45650953            789.38378
+     3             3          -452.45848863            907.45352
+     3             1          -600.49918367            109.73025
+     3             2          -504.45650953             46.03911
+     3             3          -452.45848863             16.92679
+     4             1         -1668.44915670           2860.83435
+     4             2          -693.18313597           1934.48651
+     4             3          -556.11331247           2986.13986
+     4             1         -1668.44915670            804.07012
+     4             2          -693.18313597            114.56117
+     4             3          -556.11331247             86.57576
+     5             1        -97958.09766444           **********
+     5             2         -4608.55358566           **********
+     5             3          -793.12004366           **********
+     5             1        -97958.09766444           **********
+     5             2         -4608.55358566           1965.59598
+     5             3          -793.12004366              1.48801
+ GRAM DROPS COL. 16 FOR LINEAR DEPENDENCE
+  linear dependent b vectors - stop 
+ THE PROGRAM HAS DETECTED A FATAL ERROR AND WILL HALT EXECUTION.

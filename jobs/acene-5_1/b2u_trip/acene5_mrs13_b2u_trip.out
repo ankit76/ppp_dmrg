@@ -1,0 +1,166 @@
+ ************************************************************************
+ * CISTAR - CONFIGURATION INTERACTION/PERTURBATION THEORY PROGRAM       *
+ * QUANTUM CHEMISTRY GROUP - INDIANA UNIVERSITY - 30Aug 2010  23:02:12  *
+ ************************************************************************
+
+
+
+ THE TRANSFORMED INTEGRALS ARE TITLED: dumm                                    
+ THE FILE IS DATED:                     30Aug 2010  22:27:23 
+ THE NUMBER OF ORBITALS FROM FILE 16 IS  22.
+
+
+                         CI RUN TITLE
+                         -- --- -----
+ ) * H2O  -SINGLET A1-  STO-3G HF SD-CI TEST CASE *
+
+
+ ) $
+ ) $ GENERAL OPTIONS LIST INPUT
+ ) $
+ )MRSDCI=100      $ REQUEST UP TO SD EXCITATIONS FROM THESE CONFIGURATION
+ )ISYMMETRY=3       $ SPECIFY Ag OVERALL SYMMETR
+ )MULTIPLICITY=3       $ SPECIFY SPIN MULTIPLICITY
+ )END
+ TIME TO PROCESS FORMULA FILE = 0.0 CPU SEC. ( 0.0 WALL CLOCK SEC.)
+
+            THE REFERENCE SPACE CONFIGURATIONS
+            --- --------- ----- --------------
+ ) $
+ ) $ SPECIFY THE HARTREE-FOCK CONFIGURATION
+ ) $
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 ; D 1 - 3 S 4 ; D 1 - 3 ; D 1 S 2  END
+ )  D 1 - 3 S 5 ; D 1 - 3 ; D 1 S 2 D 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 S 2 D 3 ; D 1 - 2  END
+ )  D 1 - 3 S 5 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 4 ; D 1 - 3 S 4 ; D 1 - 2 ; D 1 S 2  END
+ )  D 1 - 3 S 4 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2 - 3  END
+ )  D 1 - 3 S 4 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 S 2 - 3  END
+ )  D 1 - 3 S 6 ; D 1 - 3 ; S 1 D 2 - 3 ; D 1 - 2  END
+ )  D 1 - 3 ; D 1 - 3 S 5 ; D 1 - 3 ; S 1 D 2  END
+ )  D 1 - 2 S 3 D 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 4 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 4 ; D 1 - 2 S 3 ; D 1  END
+ )  D 1 - 3 S 4 - 5 ; D 1 - 3 S 4 ; D 1 S 2 - 3 ; D 1 S 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 S 4 - 5 ; D 1 - 2 S 3 ; S 1 - 2  END
+ )  D 1 - 2 S 3 - 4 ; D 1 - 3 S 4 ; D 1 - 2 S 3 - 4 ; D 1 S 2  END
+ )  D 1 - 2 S 3 ; D 1 - 3 ; D 1 - 3 S 4 ; D 1 - 2  END
+ )  D 1 - 2 S 3 - 5 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 S 2 - 4 ; D 1 - 2  END
+ )  D 1 - 3 S 4 - 5 ; D 1 - 2 S 3 ; D 1 S 2 - 3 ; D 1 - 2 S 3  END
+ )  D 1 - 3 S 5 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 S 2 D 3 ; D 1 S 2 - 3  END
+ )  D 1 - 3 ; D 1 - 3 S 4 ; D 1 - 3 ; S 1 D 2  END
+ )  D 1 - 3 ; D 1 - 3 S 5 ; D 1 - 3 ; D 1 S 2  END
+ )  D 1 - 3 S 4 ; D 1 S 2 D 3 S 4 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2 S 4  END
+ )  D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 - 2 S 3  END
+ )  D 1 - 3 S 4 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 4 ; D 1 - 2  END
+ )  D 1 - 2 S 3 D 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2 - 3  END
+ )  D 1 - 4 S 5 ; D 1 - 3 ; D 1 S 2 ; D 1 - 2  END
+ )  D 1 - 2 S 3 - 5 ; D 1 - 3 ; D 1 S 2 - 4 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 S 2 D 3 S 4 ; D 1 - 2 S 3 ; D 1 S 2 S 4  END
+ )  D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; S 1 D 2 S 3 S 6 ; D 1 - 2  END
+ )  S 1 D 2 - 3 S 4 S 6 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 S 6 ; D 1 - 3 S 4 ; S 1 D 2 S 3 ; D 1 S 2  END
+ )  D 1 - 3 S 4 ; D 1 - 2 S 3 S 5 ; D 1 - 2 S 3 ; S 1 D 2 S 3  END
+ )  D 1 - 3 ; D 1 S 2 D 3 ; D 1 - 3 ; D 1 - 2 S 4  END
+ )  D 1 - 2 S 3 - 4 ; D 1 - 3 S 4 ; D 1 S 2 - 3 ; D 1 - 2 S 3  END
+ )  D 1 - 3 S 4 - 5 ; D 1 - 2 S 3 ; D 1 - 2 S 3 - 4 ; D 1 S 2  END
+ )  D 1 - 4 S 6 ; D 1 - 3 ; S 1 D 2 ; D 1 - 2  END
+ )  D 1 S 2 D 3 S 4 - 5 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 S 2 - 3 S 5 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 3 ; S 1 D 2 S 4  END
+ )  D 1 - 3 S 4 ; D 1 S 2 D 3 S 5 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 4 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 S 2  END
+ )  D 1 - 3 ; D 1 - 3 S 4 ; D 1 - 2 ; D 1 - 2 S 3  END
+ )  D 1 - 3 S 4 S 6 ; D 1 - 2 S 3 ; S 1 D 2 S 3 ; D 1 - 2 S 3  END
+ )  D 1 - 2 S 3 D 4 ; D 1 - 3 ; D 1 - 2 S 4 ; D 1 - 2  END
+ )  D 1 - 3 S 4 D 5 ; D 1 - 3 ; D 1 S 3 ; D 1 - 2  END
+ )  D 1 S 2 D 3 - 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 5 ; D 1 - 2  END
+ )  D 1 - 4 ; D 1 - 3 S 5 ; D 1 - 2 ; S 1 D 2  END
+ )  D 1 - 3 S 4 - 5 ; D 1 - 3 S 5 ; D 1 S 2 - 3 ; S 1 D 2  END
+ )  D 1 - 3 S 4 ; D 1 - 2 S 3 - 4 ; D 1 S 2 - 4 ; D 1 - 2  END
+ )  D 1 - 2 S 3 - 5 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2 - 3  END
+ )  D 1 - 3 S 4 ; D 1 - 2 ; D 1 - 2 S 3 ; D 1 - 3  END
+ )  D 1 - 4 ; D 1 - 2 S 3 ; D 1 - 2 ; D 1 - 2 S 3  END
+ )  D 1 - 2 S 3 - 4 ; D 1 - 3 S 5 ; D 1 - 2 S 3 - 4 ; S 1 D 2  END
+ )  D 1 S 2 D 3 ; D 1 - 3 ; D 1 - 3 S 5 ; D 1 - 2  END
+ )  S 1 D 2 - 3 ; D 1 - 3 ; D 1 - 3 S 6 ; D 1 - 2  END
+ )  D 1 - 2 S 3 - 4 ; D 1 - 3 S 4 ; D 1 - 3 ; D 1 S 2  END
+ )  D 1 - 3 ; D 1 - 3 S 4 ; D 1 - 2 S 3 - 4 ; D 1 S 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; S 1 D 2 S 3 S 5 ; D 1 - 2  END
+ )  D 1 S 2 D 3 S 4 S 6 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 6 ; D 1 - 3 ; D 1 S 2 D 3 ; D 1 - 2  END
+ )  D 1 - 3 S 5 ; D 1 - 3 ; S 1 D 2 - 3 ; D 1 - 2  END
+ )  D 1 S 2 D 3 S 4 ; D 1 - 3 S 4 ; D 1 - 2 S 3 S 5 ; D 1 S 2  END
+ )  D 1 - 3 S 4 ; D 1 S 2 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 3 - 4  END
+ )  D 1 - 3 S 4 ; S 1 D 2 - 3 S 4 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2 S 5  END
+ )  D 1 - 3 S 5 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2 - 3  END
+ )  D 1 - 3 S 4 ; D 1 - 2 S 3 - 4 ; D 1 S 2 D 3 ; D 1 - 2  END
+ )  D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 - 2 S 3  END
+ )  D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3  END
+ )  D 1 - 3 ; S 1 D 2 - 3 ; D 1 - 3 ; D 1 - 2 S 5  END
+ )  D 1 - 3 S 4 - 5 ; D 1 S 2 D 3 ; D 1 S 2 - 3 ; D 1 - 2 S 4  END
+ )  D 1 - 3 S 4 - 5 ; D 1 - 3 S 5 ; D 1 S 2 - 3 ; D 1 S 2  END
+ )  D 1 - 3 S 4 - 5 ; D 1 - 3 S 4 ; D 1 S 2 - 3 ; S 1 D 2  END
+ )  D 1 - 3 S 4 ; S 1 D 2 - 3 S 5 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 3 ; S 1 D 2 S 5  END
+ )  D 1 - 3 S 4 - 6 ; D 1 - 3 ; S 1 - 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 2 S 3 S 5 ; D 1 S 2 - 4 ; D 1 - 2  END
+ )  D 1 - 2 S 3 - 5 ; D 1 - 3 ; D 1 - 2 S 3 ; S 1 D 2 S 3  END
+ )  D 1 - 4 ; D 1 S 2 D 3 ; D 1 - 2 ; D 1 - 2 S 4  END
+ )  D 1 - 2 S 3 - 4 ; D 1 S 2 D 3 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 4  END
+ )  D 1 - 2 S 4 ; D 1 - 3 ; D 1 - 2 S 3 D 4 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 S 2 D 3 ; S 1 D 2 S 3  END
+ )  D 1 - 3 S 5 ; D 1 - 2 S 3 S 5 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; S 1 D 2 - 3 S 4 ; D 1 - 2 S 3 ; D 1 S 2 S 5  END
+ )  D 1 S 2 D 3 S 4 - 5 ; D 1 - 3 ; D 1 S 2 - 3 S 5 ; D 1 - 2  END
+ )  S 1 D 2 - 3 S 4 - 5 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 S 2 - 3 S 6 ; D 1 - 2  END
+ )  D 1 - 3 S 4 S 6 ; D 1 - 3 S 5 ; S 1 D 2 S 3 ; S 1 D 2  END
+ )  D 1 - 4 ; D 1 - 3 S 4 ; D 1 S 2 - 3 ; D 1 S 2  END
+ )  D 1 - 3 S 4 - 5 ; D 1 - 3 S 4 ; D 1 - 2 ; D 1 S 2  END
+ )  D 1 - 4 S 6 ; D 1 - 3 ; D 1 - 2 S 3 ; S 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 S 4 - 5 ; S 1 D 2 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 4 ; D 1 S 2 ; D 1 - 2  END
+
+               INTERNALLY GENERATED ORBITAL SETS (MR SD-CI TYPE 1)
+               ---------- --------- ------- ---------------------
+ MIN. MAX.
+ OCC. OCC.
+   0   2   0000000000000000100000
+   0   4   0000110001100011000111
+  18  24   1111001110011100011000
+ THE REFERENCE SPACE CONTAINS 404 SPIN-ADAPTED CONFIGURATIONS.
+
+
+     79556 SPACE ORBITAL PRODUCTS (   899958 SPIN-ADAPTED CONFIGURATIONS)
+ WERE GENERATED IN     1.0 CPU SECONDS.
+ TIME IN DIAGC    0.1
+
+
+ THE TOTAL NUMBER OF SPACE ORBITAL PRODUCTS IS          79556
+ THE TOTAL NUMBER OF SPIN-ADAPTED CONFIGURATIONS IS    899958
+ THE MAX. NUMBER OF SPIN COUPLINGS IN A S.O.P. IS   28
+ THERE WILL BE         2 INTEGRAL LOADS UTILIZING  19995967 WORDS OF MEMORY.
+ writ50, first, nrec= T       15872
+ A TOTAL OF 14441232 NONZERO S.O.P. PAIRS WERE FOUND.
+ TIME TO FIND (I,J) PAIRS =   28.91 CPU SECONDS.
+ THE VALUE OF THE H(1,1) ELEMENT IS  -875.7611897
+
+          HAMILTONIAN MATRIX STORAGE DATA
+ I/O   NO. OF    NO. OF     FILE SIZE    PERCENT NONZERO
+ FILE  RECORDS   ELEMENTS   (IN BYTES)    IN ALL BLOCKS
+  12         4    1799916     14399348
+  13     10132    7238736    162152528
+  17    199234  763908003   -852318016      54.8
+  18     21116  157529732   2027220464
+  19      2998   23348894    239851992
+  20       742    5851203     47490968
+ TOTAL ELAPSED TIME =   268.2 CPU SECONDS AND      416.1 WALL CLOCK SECONDS.

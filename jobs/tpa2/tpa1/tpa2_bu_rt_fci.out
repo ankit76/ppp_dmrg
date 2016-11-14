@@ -1,0 +1,183 @@
+ ************************************************************************
+ * RTSIM - DAVIDSON METHOD SPARSE MATRIX EIGENVALUE/EIGENVECTOR PROGRAM *
+ * QUANTUM CHEMISTRY GROUP - INDIANA UNIVERSITY - 27Jun 2016  11:28:11  *
+ ************************************************************************
+
+
+
+                 DIAGONALIZATION RUN TITLE
+                 -------------------------
+ )* WATER TEST *
+
+
+
+ ) DAVIDSON
+ ) LAST=5
+ ) COEFF
+ ) NOVLP
+ ) MAXITR=1000 END
+
+ THE CI MATRIX IS TITLED:  H2O  -SINGLET A1-  STO-3G HF SD-CI TEST
+ THE MATRIX IS DATED:     27Jun 2016  11:25:20 
+ THE SPIN MULTIPLICITY IS 1 AND THE DIMENSION IS      8.
+
+ ROOTS  1 THROUGH  5 WILL BE OBTAINED.
+
+  
+  
+  
+ AMOUNT OF CORE AVAILABLE                      80000000
+ MAXIMUM NUMBER OF VECTORS PER ITERATION              5
+ MAXIMUM NUMBER OF VECTORS ON DISK                   25
+ NUMBER OF SOLUTIONS SOUGHT                           5
+ NUMBER OF SOLUTIONS INVESTIGATED                     5
+ SIZE OF MATRIX DIAGONALISED                          8
+  
+  
+ INITIAL GUESS AT ROOTS (OBTAINED FROM DIAGONAL ELEMENTS OF HAMILTONIAN MATRIX)
+
+                1         -38.65477
+                5         -34.73751
+                2         -31.44242
+                3         -31.44242
+                4         -28.06699
+
+
+ ITERATION       ROOT           EIGENVALUE          NORM OF RESIDUAL
+     1             1           -38.93411168              0.82252
+     1             2           -35.15801321              1.09955
+     1             3           -34.25411858              1.23157
+  matrix size is full matrix 
+  
+
+ ************************************
+ COMPLETED CI VECTOR OPTIMISATION
+ ************************************
+
+
+
+
+
+ ********************************
+ RESULTS FOR ROOT   01
+ TOTAL CI ENERGY =    -38.9860757
+ ********************************
+
+       CONF.                                                                           COEFF.
+        NO.        SPACE ORBITAL PRODUCTS                                             CONTRIB.      CI COEFFICIENTS
+
+       -----       ----------------------                                             --------   ---------------------
+   1.     1   D 1 S 2 ; S 1  END                                                        0.9791   -0.97911
+   2.     5   S 1 ; D 1 S 2  END                                                        0.1181    0.11809
+   3.     3   D 1 S 2 ; S 2  END                                                        0.1004    0.10040
+   4.     2   S 1 D 2 ; S 1  END                                                        0.1004   -0.10040
+   5.     4   S 1 D 2 ; S 2  END                                                        0.0561   -0.05609
+   6.     8   S 2 ; S 1 D 2  END                                                        0.0511    0.05112
+   7.     7   S 1 ; S 1 D 2  END                                                        0.0273    0.02727
+   8.     6   S 2 ; D 1 S 2  END                                                        0.0273   -0.02727
+
+
+
+
+ POSITION OF FIRST SPIN COUPLING FOR TEN MOST IMPORTANT CONFIGURATIONS
+       1      5      3      2      4      8      7      6      0      0
+
+
+
+ ********************************
+ RESULTS FOR ROOT   02
+ TOTAL CI ENERGY =    -35.2932036
+ ********************************
+
+       CONF.                                                                           COEFF.
+        NO.        SPACE ORBITAL PRODUCTS                                             CONTRIB.      CI COEFFICIENTS
+
+       -----       ----------------------                                             --------   ---------------------
+   1.     5   S 1 ; D 1 S 2  END                                                        0.9357   -0.93572
+   2.     3   D 1 S 2 ; S 2  END                                                        0.2037    0.20371
+   3.     2   S 1 D 2 ; S 1  END                                                        0.2037   -0.20371
+   4.     4   S 1 D 2 ; S 2  END                                                        0.1409    0.14092
+   5.     7   S 1 ; S 1 D 2  END                                                        0.0891    0.08909
+   6.     6   S 2 ; D 1 S 2  END                                                        0.0891   -0.08909
+   7.     1   D 1 S 2 ; S 1  END                                                        0.0747   -0.07474
+   8.     8   S 2 ; S 1 D 2  END                                                        0.0105   -0.01051
+
+
+
+
+ POSITION OF FIRST SPIN COUPLING FOR TEN MOST IMPORTANT CONFIGURATIONS
+       5      3      2      4      7      6      1      8      0      0
+
+
+
+ ********************************
+ RESULTS FOR ROOT   03
+ TOTAL CI ENERGY =    -34.5713494
+ ********************************
+
+       CONF.                                                                           COEFF.
+        NO.        SPACE ORBITAL PRODUCTS                                             CONTRIB.      CI COEFFICIENTS
+
+       -----       ----------------------                                             --------   ---------------------
+   1.     3   D 1 S 2 ; S 2  END                                                        0.6848   -0.68476
+   2.     2   S 1 D 2 ; S 1  END                                                        0.6848   -0.68476
+   3.     6   S 2 ; D 1 S 2  END                                                        0.1764   -0.17638
+   4.     7   S 1 ; S 1 D 2  END                                                        0.1764   -0.17638
+
+
+
+
+ POSITION OF FIRST SPIN COUPLING FOR TEN MOST IMPORTANT CONFIGURATIONS
+       3      2      6      7      7      6      1      8      0      0
+
+
+
+ ********************************
+ RESULTS FOR ROOT   04
+ TOTAL CI ENERGY =    -31.4299751
+ ********************************
+
+       CONF.                                                                           COEFF.
+        NO.        SPACE ORBITAL PRODUCTS                                             CONTRIB.      CI COEFFICIENTS
+
+       -----       ----------------------                                             --------   ---------------------
+   1.     2   S 1 D 2 ; S 1  END                                                        0.5333   -0.53330
+   2.     3   D 1 S 2 ; S 2  END                                                        0.5333    0.53330
+   3.     7   S 1 ; S 1 D 2  END                                                        0.3838    0.38376
+   4.     6   S 2 ; D 1 S 2  END                                                        0.3838   -0.38376
+   5.     5   S 1 ; D 1 S 2  END                                                        0.2729    0.27294
+   6.     1   D 1 S 2 ; S 1  END                                                        0.1771    0.17711
+   7.     8   S 2 ; S 1 D 2  END                                                        0.1362    0.13617
+   8.     4   S 1 D 2 ; S 2  END                                                        0.1106   -0.11062
+
+
+
+
+ POSITION OF FIRST SPIN COUPLING FOR TEN MOST IMPORTANT CONFIGURATIONS
+       2      3      7      6      5      1      8      4      0      0
+
+
+
+ ********************************
+ RESULTS FOR ROOT   05
+ TOTAL CI ENERGY =    -29.4728878
+ ********************************
+
+       CONF.                                                                           COEFF.
+        NO.        SPACE ORBITAL PRODUCTS                                             CONTRIB.      CI COEFFICIENTS
+
+       -----       ----------------------                                             --------   ---------------------
+   1.     6   S 2 ; D 1 S 2  END                                                        0.6848    0.68476
+   2.     7   S 1 ; S 1 D 2  END                                                        0.6848    0.68476
+   3.     3   D 1 S 2 ; S 2  END                                                        0.1764   -0.17638
+   4.     2   S 1 D 2 ; S 1  END                                                        0.1764   -0.17638
+
+
+
+
+ POSITION OF FIRST SPIN COUPLING FOR TEN MOST IMPORTANT CONFIGURATIONS
+       6      7      3      2      5      1      8      4      0      0
+
+
+
+ ELAPSED TIME =       0.00 CPU SECONDS. (      0.00 WALL CLOCK SECONDS)

@@ -1,0 +1,81 @@
+ ************************************************************************
+ * CISTAR - CONFIGURATION INTERACTION/PERTURBATION THEORY PROGRAM       *
+ * QUANTUM CHEMISTRY GROUP - INDIANA UNIVERSITY - 30Aug 2010  20:25:51  *
+ ************************************************************************
+
+
+
+ THE TRANSFORMED INTEGRALS ARE TITLED: dumm                                    
+ THE FILE IS DATED:                     30Aug 2010  20:24:53 
+ THE NUMBER OF ORBITALS FROM FILE 16 IS  22.
+
+
+                         CI RUN TITLE
+                         -- --- -----
+ ) * H2O  -SINGLET A1-  STO-3G HF SD-CI TEST CASE *
+
+
+ ) $
+ ) $ GENERAL OPTIONS LIST INPUT
+ ) $
+ )MRSDCI= 13      $ REQUEST UP TO SD EXCITATIONS FROM THESE CONFIGURATION
+ )ISYMMETRY=3       $ SPECIFY Ag OVERALL SYMMETR
+ )MULTIPLICITY=1       $ SPECIFY SPIN MULTIPLICITY
+ )END
+ TIME TO PROCESS FORMULA FILE = 0.0 CPU SEC. ( 0.0 WALL CLOCK SEC.)
+
+            THE REFERENCE SPACE CONFIGURATIONS
+            --- --------- ----- --------------
+ ) $
+ ) $ SPECIFY THE HARTREE-FOCK CONFIGURATION
+ ) $
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 - 2 S 3  END
+ )  D 1 - 3 S 4 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 S 2 - 3  END
+ )  D 1 - 3 S 4 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 S 2 - 3  END
+ )  D 1 - 4 ; D 1 - 2 S 3 ; D 1 - 2 ; D 1 - 2 S 3  END
+ )  D 1 - 2 S 3 D 4 ; D 1 - 3 ; D 1 - 2 S 3 ; D 1 - 2  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 - 2 S 4 ; D 1 - 2  END
+ )  D 1 - 4 ; D 1 - 3 S 4 ; D 1 - 2 ; D 1 S 2  END
+ )  D 1 - 4 ; D 1 - 2 S 3 ; D 1 - 3 ; D 1 S 2  END
+ )  D 1 - 3 ; D 1 - 3 S 4 ; D 1 - 2 ; D 1 - 2 S 3  END
+ )  D 1 - 3 S 4 ; D 1 - 3 ; D 1 S 2 D 3 ; D 1 S 2 - 3  END
+ )  D 1 - 3 S 5 ; D 1 - 2 S 3 - 4 ; D 1 - 2 S 3 ; D 1 - 2  END
+
+               INTERNALLY GENERATED ORBITAL SETS (MR SD-CI TYPE 1)
+               ---------- --------- ------- ---------------------
+ MIN. MAX.
+ OCC. OCC.
+   0   2   0000010000100001100011
+   0   2   0000000000000010000000
+   0   4   0000100001000000000100
+   6  12   0011000010001100001000
+  10  12   1100001100010000010000
+ THE REFERENCE SPACE CONTAINS  21 SPIN-ADAPTED CONFIGURATIONS.
+
+
+     14767 SPACE ORBITAL PRODUCTS (    66089 SPIN-ADAPTED CONFIGURATIONS)
+ WERE GENERATED IN     0.0 CPU SECONDS.
+ TIME IN DIAGC    0.0
+
+
+ THE TOTAL NUMBER OF SPACE ORBITAL PRODUCTS IS          14767
+ THE TOTAL NUMBER OF SPIN-ADAPTED CONFIGURATIONS IS     66089
+ THE MAX. NUMBER OF SPIN COUPLINGS IN A S.O.P. IS   14
+ THERE WILL BE         2 INTEGRAL LOADS UTILIZING  19995967 WORDS OF MEMORY.
+ writ50, first, nrec= T       15872
+ A TOTAL OF  1763741 NONZERO S.O.P. PAIRS WERE FOUND.
+ TIME TO FIND (I,J) PAIRS =    1.48 CPU SECONDS.
+ THE VALUE OF THE H(1,1) ELEMENT IS  -874.2030510
+
+          HAMILTONIAN MATRIX STORAGE DATA
+ I/O   NO. OF    NO. OF     FILE SIZE    PERCENT NONZERO
+ FILE  RECORDS   ELEMENTS   (IN BYTES)    IN ALL BLOCKS
+  12         4     132178      1057444
+  13       218     207628      3488872
+  17      5526   21932619     99038544      64.5
+  18         2       9448       192008
+  19        10      79224       800040
+  20       832    6625331     53251328
+ TOTAL ELAPSED TIME =     6.2 CPU SECONDS AND        6.5 WALL CLOCK SECONDS.

@@ -1,0 +1,68 @@
+ ************************************************************************
+ * CISTAR - CONFIGURATION INTERACTION/PERTURBATION THEORY PROGRAM       *
+ * QUANTUM CHEMISTRY GROUP - INDIANA UNIVERSITY -  8Apr 2016  18:39:59  *
+ ************************************************************************
+
+
+
+ THE TRANSFORMED INTEGRALS ARE TITLED: dumm                                    
+ THE FILE IS DATED:                      8Apr 2016  18:39:04 
+ THE NUMBER OF ORBITALS FROM FILE 16 IS  16.
+
+
+                         CI RUN TITLE
+                         -- --- -----
+ )* H2O  -SINGLET A1-  STO-3G HF SD-CI TEST CASE *
+
+
+ ) $
+ ) $ GENERAL OPTIONS LIST INPUT
+ ) $
+ )FULLCI      $ REQUEST UP TO SD EXCITATIONS FROM THESE CONFIGURATIONs
+ )ISYMMETRY=1     $ SPECIFY Ag OVERALL SYMMETRY
+ )MULTIPLICITY=1  $ SPECIFY SPIN MULTIPLICITY
+ )END
+ TIME TO PROCESS FORMULA FILE = 0.0 CPU SEC. ( 0.0 WALL CLOCK SEC.)
+
+            THE HARTREE-FOCK CONFIGURATION
+            --- ------------ -------------
+ ) $
+ ) $ SPECIFY THE HARTREE-FOCK CONFIGURATION
+ ) $
+ ) D 1 - 4 ; D 1 - 4  END $1Ag
+
+               INTERNALLY GENERATED ORBITAL SETS (FULL-CI)
+               ---------- --------- ------- --------------
+ MIN. MAX.
+ OCC. OCC.
+   0  16   0000111100001111
+   0  16   1111000011110000
+
+   2513690 SPACE ORBITAL PRODUCTS ( 13262974 SPIN-ADAPTED CONFIGURATIONS)
+ WERE GENERATED IN     0.3 CPU SECONDS.
+ TIME IN DIAGC    0.4
+
+
+ THE TOTAL NUMBER OF SPACE ORBITAL PRODUCTS IS        2513690
+ THE TOTAL NUMBER OF SPIN-ADAPTED CONFIGURATIONS IS  13262974
+ THE MAX. NUMBER OF SPIN COUPLINGS IN A S.O.P. IS   14
+ THERE WILL BE         2 INTEGRAL LOADS UTILIZING  79995967 WORDS OF MEMORY.
+ writ50, first, nrec= T       15872
+ A TOTAL OF ******** NONZERO S.O.P. PAIRS WERE FOUND.
+ TIME TO FIND (I,J) PAIRS =10871.86 CPU SECONDS.
+ THE VALUE OF THE H(1,1) ELEMENT IS  -400.1837333
+forrtl: error (78): process killed (SIGTERM)
+Image              PC                Routine            Line        Source             
+libpthread.so.0    000000308260E7E0  Unknown               Unknown  Unknown
+cistar.x           0000000000492404  Unknown               Unknown  Unknown
+cistar.x           0000000000449C5F  Unknown               Unknown  Unknown
+cistar.x           0000000000448198  Unknown               Unknown  Unknown
+cistar.x           000000000042DECD  Unknown               Unknown  Unknown
+cistar.x           000000000042DBA3  Unknown               Unknown  Unknown
+cistar.x           000000000041F358  Unknown               Unknown  Unknown
+cistar.x           0000000000415FD7  Unknown               Unknown  Unknown
+cistar.x           0000000000405295  Unknown               Unknown  Unknown
+cistar.x           0000000000404797  Unknown               Unknown  Unknown
+cistar.x           00000000004032DC  Unknown               Unknown  Unknown
+libc.so.6          0000003081E21D65  Unknown               Unknown  Unknown
+cistar.x           00000000004031E9  Unknown               Unknown  Unknown

@@ -1,0 +1,150 @@
+   38  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.9f\n", $4+238.9861414110681039} END {printf "\n"}' tpa6_ag_rt_fci.out >> energies.dat 
+   48  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.9f\n", $4+238.9861414110681039} END {printf "\n"}' tpa6_bu_rt_fci.out >> energies.dat 
+   52  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.9f\n", $4+238.9861414110681039} END {printf "\n"}' tpa6_ag_rt_qci.out >> energies.dat 
+   57  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.9f\n", $4+238.9861414110681039} END {printf "\n"}' tpa6_bu_rt_qci.out >> energies.dat 
+  121  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.9f\n", $4+238.9861414110681039} END {printf "\n"}' tpa6_bu_rt_fci.out >> energies.dat 
+  122  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.9f\n", $4+238.9861414110681039} END {printf "\n"}' tpa6_bu_rt_qci.out >> energies.dat 
+  171  history | grep awk
+  374  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+301.8389818788383536}' tpa7_ag_rt_qci.out >> energies.txt 
+  375  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+301.8389818788383536}' tpa7_ag_rt_fci.out >> energies.txt 
+  396  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+301.8389818788383536}' tpa7_bu_rt_fci.out >> energies.txt 
+  437  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+301.8389818788383536}' tpa7_ag_rt_qci.out >> energies.txt 
+  527  grep -i 'Minimum energy encountered during all instructions' tpa5_bu_dmrg.out | awk '{print $9}' >> energies.txt 
+  531  grep -i 'Minimum energy encountered during all instructions' tpa5_bu_dmrg.out | awk '{print $9}' >> energies.dat
+  573  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+301.8389818788383536}' tpa7_ag_rt_qci.out >> energies.txt 
+  580  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+301.8389818788383536} END {printf "\n"}' tpa7_bu_rt_qci.out >> energies.txt 
+  726  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+301.8389818788383536} END {printf "\n"}' tpa7_bu_rt_fci.out >> energies.txt 
+  727  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+301.8389818788383536} END {printf "\n"}' tpa7_bu_rt_qci.out >> energies.txt 
+  736  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+301.8389818788383536} END {printf "\n"}' tpa7_bu_rt_fci.out > energies.txt 
+  737  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+301.8389818788383536} END {printf "\n"}' tpa7_bu_rt_qci.out > energies.txt 
+  739  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+301.8389818788383536} END {printf "\n"}' tpa7_bu_rt_fci.out > energies.txt 
+  740  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+301.8389818788383536} END {printf "\n"}' tpa7_bu_rt_qci.out >> energies.txt 
+  742  grep -i 'Minimum energy encountered during all instructions' tpa7_bu_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.dat
+  744  grep -i 'Minimum energy encountered during all instructions' tpa7_bu_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+  770  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+437.1752783934713875} END {printf "\n"}' tpa9_ag_rt_qci.out >> energies.txt 
+  773  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+437.1752783934713875} END {printf "\n"}' tpa9_bu_rt_qci.out >> energies.txt 
+  776  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+437.1752783934713875} END {printf "\n"}' tpa9_bu_rt_qci.out >> energies.txt 
+  785  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+437.1752783934713875} END {printf "\n"}' tpa9_bu_rt_qci.out >> energies.txt 
+  825  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+368.0413653525660607} END {printf "\n"}' tpa8_bu_rt_qci.out >> energies.txt 
+  826  grep -i 'Minimum energy encountered during all instructions' tpa8_bu_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1129  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+437.1752783934713875} END {printf "\n"}' tpa9_bu_rt_qci.out >> energies.txt 
+ 1130  grep -i 'Minimum energy encountered during all instructions' tpa9_bu_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1136  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+508.9154055767859290} END {printf "\n"}' tpa10_ag_rt_qci.out >> energies.txt 
+ 1137  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+508.9154055767859290} END {printf "\n"}' tpa10_bu_rt_qci.out >> energies.txt 
+ 1138  grep -i 'Minimum energy encountered during all instructions' tpa9_ag_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1139  grep -i 'Minimum energy encountered during all instructions' tpa10_ag_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1140  grep -i 'Minimum energy encountered during all instructions' tpa10_ag_dmrg_500.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1141  grep -i 'Minimum energy encountered during all instructions' tpa10_bu_dmrg_500.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1166  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+508.9154055767859290} END {printf "\n"}' tpa10_bu_rt_qci.out >> energies.txt 
+ 1167  grep -i 'Minimum energy encountered during all instructions' tpa10_bu_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1365  history | grep 'awk'
+ 1367  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_ag_rt_fci.out >> energies.txt 
+ 1376  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_b3u_rt_fci.out >> energies.txt 
+ 1462  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_b2u_rt_fci.out >> energies.txt 
+ 1568  grep -i 'Minimum energy encountered during all instructions' acene2_ag_dmrg_500.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1571  grep -i 'Minimum energy encountered during all instructions' acene2_ag_dmrg_1000.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1574  grep -i 'Minimum energy encountered during all instructions' acene2_ag_dmrg_1500.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1577  grep -i 'Minimum energy encountered during all instructions' acene2_ag_dmrg_2000.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1630  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_b1g_rt_fci.out >> energies.txt 
+ 1644  grep -i 'Minimum energy encountered during all instructions' acene2_b3u_dmrg_1000.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1645  grep -i 'Minimum energy encountered during all instructions' acene2_scr_b3u_dmrg_1000.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1648  grep -i 'Minimum energy encountered during all instructions' acene2_scr_b2u_dmrg_1000.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1651  grep -i 'Minimum energy encountered during all instructions' acene2_scr_b1g_dmrg_1000.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1665  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_ag_rt_qci.out >> energies.txt 
+ 1666  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_b3u_rt_qci.out >> energies.txt 
+ 1667  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_b2u_rt_qci.out >> energies.txt 
+ 1668  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_b1g_rt_qci.out >> energies.txt 
+ 1694  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_b3u_rt_fci.out >> energies.txt 
+ 1695  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_b2u_rt_fci.out >> energies.txt 
+ 1696  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_b1g_rt_fci.out >> energies.txt 
+ 1707  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_b3u_rt_qci.out >> energies.txt 
+ 1708  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_b2u_rt_qci.out >> energies.txt 
+ 1709  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_b1g_rt_qci.out >> energies.txt 
+ 1743  grep -i 'Minimum energy encountered during all instructions' acene2_scr_b3u_dmrg_1000.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1744  grep -i 'Minimum energy encountered during all instructions' acene2_scr_b2u_dmrg_1000.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1745  grep -i 'Minimum energy encountered during all instructions' acene2_scr_b1g_dmrg_1000.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1862  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103   0   0   0   0} END {printf "\n"}' acene2_scr_b1g_rt_qci.out >> energies.txt 
+ 1863  (reverse-i-search)`awk ': grep -i 'Minimum energy encountered during all instructions' acene2_scr_b1g_dmrg_1000.out | ^Ck '{print $9} END {printf "\n"}' >> energies.txt
+ 1865  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103   0   0   0   0} END {printf "\n"}' acene2_scr_b1g_rt_qci.out >> energies.txt 
+ 1866  awk: fatal: cannot open file `acene2_scr_b1g_rt_qci.out' for reading (No such file or directory)
+ 1867  [ankit@localhost singlet]$ (reverse-i-search)`awk ': grep -i 'Minimum energy encountered during all instructions' acene2_scr_b1g_dmrg_1000.out | ^Ck '{print $9} END {printf "\n"}' >> energies.txt
+ 1868  > [ankit@localhost singlet]$ awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+^C
+ 1870  [ankit@localhost singlet]$ (reverse-i-search)`awk ': grep -i 'Minimum energy encountered during all instructions' acene2_scr_b1g_dmrg_1000.out | ^Ck '{print $9} END {printf "\n"}' >> energies.txt^C
+ 1873  history | grep 'awk'
+ 1875  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_ag_rt_fci.out >> energies.txt 
+ 1877  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b3u_rt_fci.out >> energies.txt 
+ 1878  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b2u_rt_fci.out >> energies.txt 
+ 1879  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b1g_rt_fci.out >> energies.txt 
+ 1881  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_ag_rt_qci.out >> energies.txt 
+ 1882  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b3u_rt_qci.out >> energies.txt 
+ 1883  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b2u_rt_qci.out >> energies.txt 
+ 1884  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b1g_rt_qci.out >> energies.txt 
+ 1890  history | awk 'Min'
+ 1892  grep -i 'Minimum energy encountered during all instructions' acene2_scr_b3u_dmrg_1000.out | awk '{print $9} END {printf "\n"}' >> energies.txt
+ 1893  [ankit@localhost singlet]$ (reverse-i-search)`awk ': grep -i 'Minimum energy encountered during all instructions' acene2_scr_b1g_dmrg_1000.out | ^Ck '{print $9} END {printf "\n"}' >> energies.txt
+ 1896  grep -i 'Minimum energy encountered during all instructions' acene2_std_ag_dmrg_1000.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 1897  grep -i 'Minimum energy encountered during all instructions' acene2_std_ag_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 1899  grep -i 'Minimum energy encountered during all instructions' acene2_std_b3u_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 1900  grep -i 'Minimum energy encountered during all instructions' acene2_std_b2u_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 1901  grep -i 'Minimum energy encountered during all instructions' acene2_std_b1g_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 1905  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_ag_rt_qci.out >> energies.txt 
+ 1942  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b3u_rt_qci.out >> energies.txt 
+ 1943  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b2u_rt_qci.out >> energies.txt 
+ 1944  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b1g_rt_qci.out >> energies.txt 
+ 1962  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_ag_rt_fci.out > energies.txt 
+ 1963  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b3u_rt_fci.out > energies.txt 
+ 1964  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b2u_rt_fci.out >> energies.txt 
+ 1965  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b1g_rt_fci.out >> energies.txt 
+ 1966  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b3u_rt_qci.out >> energies.txt 
+ 1967  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b2u_rt_qci.out >> energies.txt 
+ 1968  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b1g_rt_qci.out >> energies.txt 
+ 1969  grep -i 'Minimum energy encountered during all instructions' acene2_std_b3u_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 1970  grep -i 'Minimum energy encountered during all instructions' acene2_std_b2u_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 1971  grep -i 'Minimum energy encountered during all instructions' acene2_std_b1g_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 1973  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b2u_rt_fci.out >> energies.txt 
+ 1978  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+228.8741793703574103} END {printf "\n"}' acene2_std_b2u_rt_fci.out >> energies.txt 
+ 2078  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_ag_rt_fci.out > energies.txt 
+ 2079  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b3u_rt_fci.out >> energies.txt 
+ 2080  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b2u_rt_fci.out >> energies.txt 
+ 2081  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b1g_rt_fci.out >> energies.txt 
+ 2082  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_ag_rt_qci.out >> energies.txt 
+ 2083  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b3u_rt_qci.out >> energies.txt 
+ 2084  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b2u_rt_qci.out >> energies.txt 
+ 2085  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b1g_rt_qci.out >> energies.txt 
+ 2086  grep -i 'Minimum energy encountered during all instructions' acene3_scr_ag_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 2161  grep -i 'Minimum energy encountered during all instructions' acene3_scr_b3u_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 2162  grep -i 'Minimum energy encountered during all instructions' acene3_scr_b2u_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 2163  grep -i 'Minimum energy encountered during all instructions' acene3_scr_b1g_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 2166  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_ag_rt_fci.out > energies.txt 
+ 2167  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b3u_rt_fci.out > energies.txt 
+ 2168  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b2u_rt_fci.out > energies.txt 
+ 2169  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b1g_rt_fci.out > energies.txt 
+ 2170  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b3u_rt_qci.out > energies.txt 
+ 2171  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b2u_rt_qci.out > energies.txt 
+ 2172  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b1g_rt_qci.out > energies.txt 
+ 2173  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b3u_rt_fci.out > energies.txt 
+ 2174  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b2u_rt_fci.out >> energies.txt 
+ 2175  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b1g_rt_fci.out >> energies.txt 
+ 2176  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b3u_rt_qci.out >> energies.txt 
+ 2177  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b2u_rt_qci.out >> energies.txt 
+ 2178  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+145.1204231567813565} END {printf "\n"}' acene3_scr_b1g_rt_qci.out >> energies.txt 
+ 2180  grep -i 'Minimum energy encountered during all instructions' acene3_scr_b3u_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 2181  grep -i 'Minimum energy encountered during all instructions' acene3_scr_b2u_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 2182  grep -i 'Minimum energy encountered during all instructions' acene3_scr_b1g_dmrg.out | awk '{print $9} END {printf "\n"}' >> energies.txt 
+ 2275  awk 'END{print}' acene2_scr.FCIDUMP 
+ 2276  awk 'END{print}' acene2_scr.FCIDUMP | awk '{print $1}'
+ 2279  awk 'END{print}' acene2_scr.FCIDUMP | awk '{print $1}'
+ 2281  history | grep 'awk' >> temp
+ 2283  awk '/TOTAL CI ENERGY/  {printf "%3.10f\n", $5+145.1204231567813565} END {printf "\n"}' acene2_scr_ag_rt_qci.out
+ 2285  awk '/TOTAL CI ENERGY/  {printf "%3.10f\n", $5+82.2548712921320231} END {printf "\n"}' acene2_scr_ag_rt_qci.out
+ 2287  awk '/TOTAL CI ENERGY/  {printf "%3.10f\n", $5} END {printf "\n"}' acene2_scr_ag_rt_qci.out
+ 2288  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4} END {printf "\n"}' acene2_scr_ag_rt_qci.out 
+ 2289  awk '/TOTAL CI ENERGY/  {printf "%3.6f\n", $5+82.254871} END {printf "\n"}' acene2_scr_ag_rt_qci.out
+ 2290  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+2.2548712921320231} END {printf "\n"}' acene2_scr_ag_rt_qci.out} END {printf "\n"}' acene2_scr_ag_rt_qci.out 
+[ankit@localhost singlet]$ awk '/TOTAL CI ENERGY/  {printf "%3.10f\n", $5} END {printf "\n"}' acene2_scr_ag_rt_qci.out
+[ankit@localhost singlet]$ awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4} END {printf "\n"}' acene2_scr_ag_rt_qci.out 
+[ankit@localhost singlet]$ awk '/TOTAL CI ENERGY/  {printf "%3.6f\n", $5+82.254871} END {printf "\n"}' acene2_scr_ag_rt_qci.out
+ 2292  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_ag_rt_qci.out 
+ 2293  awk '/TOTAL CI ENERGY/  {printf "%3.6f\n", $5+82.254871} END {printf "\n"}' acene2_scr_ag_rt_qci.out
+ 2295  awk '/NUMBER OF PRODUCTS/ {getline; printf "%3.10f\n", $4+82.2548712921320231} END {printf "\n"}' acene2_scr_ag_rt_qci.out >> energies.txt 
+ 2297  history | grep 'awk' > temp
